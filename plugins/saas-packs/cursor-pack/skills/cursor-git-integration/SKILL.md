@@ -1,7 +1,7 @@
 ---
 name: "cursor-git-integration"
 description: |
-  Integrate Git workflows with Cursor IDE. Triggers on "cursor git",
+  Manage integrate Git workflows with Cursor IDE. Triggers on "cursor git",
   "git in cursor", "cursor version control", "cursor commit", "cursor branch". Use when working with cursor git integration functionality. Trigger with phrases like "cursor git integration", "cursor integration", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Git Integration
+
+## Overview
+
+This skill covers integrating Git workflows with Cursor IDE. It provides guidance on AI-powered commit messages, code review assistance, conflict resolution, and branch management to streamline your version control workflow.
 
 ## Built-in Git Features
 

@@ -1,7 +1,7 @@
 ---
 name: yaml-master
 description: |
-  Proactive YAML intelligence: automatically activates when working with YAML files.
+  Execute proactive YAML intelligence: automatically activates when working with YAML files.
   Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
   
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(general:*), Bash(util:*)

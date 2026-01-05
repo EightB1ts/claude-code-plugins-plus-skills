@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor Privacy & Data Settings
 
+## Overview
+
+This skill helps configure Cursor privacy and data handling settings. It covers privacy mode configuration, sensitive file exclusion, telemetry settings, and enterprise security controls to ensure your code and data are protected appropriately.
+
 ## Privacy Mode
 
 ### Understanding Privacy Mode

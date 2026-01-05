@@ -1,7 +1,7 @@
 ---
 name: checking-infrastructure-compliance
 description: |
-  Use when you need to work with compliance checking.
+  Execute use when you need to work with compliance checking.
   This skill provides compliance monitoring and validation with comprehensive guidance and automation.
   Trigger with phrases like "check compliance", "validate policies",
   or "audit compliance".

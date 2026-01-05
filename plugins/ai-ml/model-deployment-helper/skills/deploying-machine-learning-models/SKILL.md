@@ -1,7 +1,7 @@
 ---
 name: deploying-machine-learning-models
 description: |
-  This skill enables AI assistant to deploy machine learning models to production environments. it automates the deployment workflow, implements best practices for serving models, optimizes performance, and handles potential errors. use this skill when th... Use when deploying or managing infrastructure. Trigger with phrases like 'deploy', 'infrastructure', or 'CI/CD'.
+  Deploy this skill enables AI assistant to deploy machine learning models to production environments. it automates the deployment workflow, implements best practices for serving models, optimizes performance, and handles potential errors. use this skill when th... Use when deploying or managing infrastructure. Trigger with phrases like 'deploy', 'infrastructure', or 'CI/CD'.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -1,7 +1,7 @@
 ---
 name: generating-stored-procedures
 description: |
-  Use when you need to work with stored procedure generation.
+  Execute use when you need to work with stored procedure generation.
   This skill provides stored procedure code generation with comprehensive guidance and automation.
   Trigger with phrases like "generate stored procedures", "create database functions",
   or "write SQL procedures".

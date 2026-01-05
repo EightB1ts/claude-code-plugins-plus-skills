@@ -1,7 +1,7 @@
 ---
 name: simulating-flash-loans
 description: |
-  Simulate flash loan arbitrage strategies and profitability across DeFi protocols.
+  Execute simulate flash loan arbitrage strategies and profitability across DeFi protocols.
   Use when performing crypto analysis.
   Trigger with phrases like "analyze crypto", "check blockchain", or "monitor market".
   

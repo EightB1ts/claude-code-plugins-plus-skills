@@ -1,7 +1,7 @@
 ---
 name: designing-database-schemas
 description: |
-  Use when you need to work with database schema design.
+  Process use when you need to work with database schema design.
   This skill provides schema design and migrations with comprehensive guidance and automation.
   Trigger with phrases like "design schema", "create migration",
   or "model database".

@@ -1,7 +1,7 @@
 ---
 name: auditing-wallet-security
 description: |
-  Review crypto wallet security including private key management and transaction signing.
+  Execute review crypto wallet security including private key management and transaction signing.
   Use when auditing wallet security practices.
   Trigger with phrases like "audit wallet", "check security", or "verify signatures".
   

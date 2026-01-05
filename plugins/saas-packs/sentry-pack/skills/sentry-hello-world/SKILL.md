@@ -1,7 +1,7 @@
 ---
 name: sentry-hello-world
 description: |
-  Capture your first error with Sentry and verify it appears in the dashboard.
+  Execute capture your first error with Sentry and verify it appears in the dashboard.
   Use when testing Sentry integration or verifying error capture works.
   Trigger with phrases like "test sentry", "sentry hello world",
   "verify sentry", "first sentry error".

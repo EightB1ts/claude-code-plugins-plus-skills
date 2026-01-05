@@ -1,7 +1,7 @@
 ---
 name: vercel-observability
 description: |
-  Set up comprehensive observability for Vercel integrations with metrics, traces, and alerts.
+  Execute set up comprehensive observability for Vercel integrations with metrics, traces, and alerts.
   Use when implementing monitoring for Vercel operations, setting up dashboards,
   or configuring alerting for Vercel integration health.
   Trigger with phrases like "vercel monitoring", "vercel metrics",

@@ -1,7 +1,7 @@
 ---
 name: "churn-analysis-helper"
 description: |
-  Churn Analysis Helper - Auto-activating skill for Data Analytics.
+  Configure with churn analysis helper operations. Auto-activating skill for Data Analytics.
   Triggers on: churn analysis helper, churn analysis helper
   Part of the Data Analytics skill category. Use when working with churn analysis helper functionality. Trigger with phrases like "churn analysis helper", "churn helper", "churn".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Churn Analysis Helper
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for churn analysis helper tasks within the Data Analytics domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about churn analysis helper patterns or best practices
 - Need help with data analytics skills covering sql queries, data visualization, statistical analysis, and business intelligence.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for churn analysis helper
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for churn analysis helper
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with churn analysis helper"
-- "Set up churn analysis helper"
-- "How do I implement churn analysis helper?"
+**Example: Basic Usage**
+Request: "Help me with churn analysis helper"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of data analytics concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

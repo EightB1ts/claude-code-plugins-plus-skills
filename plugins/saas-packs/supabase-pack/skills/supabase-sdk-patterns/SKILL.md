@@ -1,7 +1,7 @@
 ---
 name: supabase-sdk-patterns
 description: |
-  Apply production-ready Supabase SDK patterns for TypeScript and Python.
+  Execute apply production-ready Supabase SDK patterns for TypeScript and Python.
   Use when implementing Supabase integrations, refactoring SDK usage,
   or establishing team coding standards for Supabase.
   Trigger with phrases like "supabase SDK patterns", "supabase best practices",

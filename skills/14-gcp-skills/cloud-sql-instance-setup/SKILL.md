@@ -1,7 +1,7 @@
 ---
 name: "cloud-sql-instance-setup"
 description: |
-  Cloud Sql Instance Setup - Auto-activating skill for GCP Skills.
+  Configure cloud sql instance setup operations. Auto-activating skill for GCP Skills.
   Triggers on: cloud sql instance setup, cloud sql instance setup
   Part of the GCP Skills skill category. Use when working with cloud sql instance setup functionality. Trigger with phrases like "cloud sql instance setup", "cloud setup", "cloud".
 allowed-tools: "Read, Write, Edit, Bash(gcloud:*)"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cloud Sql Instance Setup
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for cloud sql instance setup tasks within the GCP Skills domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about cloud sql instance setup patterns or best practices
 - Need help with google cloud platform skills covering compute, storage, bigquery, vertex ai, and gcp-specific services.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for cloud sql instance setup
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for cloud sql instance setup
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with cloud sql instance setup"
-- "Set up cloud sql instance setup"
-- "How do I implement cloud sql instance setup?"
+**Example: Basic Usage**
+Request: "Help me with cloud sql instance setup"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of gcp skills concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

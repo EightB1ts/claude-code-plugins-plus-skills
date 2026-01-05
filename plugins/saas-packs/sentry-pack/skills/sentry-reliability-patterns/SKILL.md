@@ -391,10 +391,24 @@ app.get('/health/sentry', async (req, res) => {
 ```
 
 ## Prerequisites
+
 - Understanding of failure modes
 - Fallback logging strategy
 - Network reliability characteristics
 - Graceful shutdown requirements
+
+## Instructions
+
+1. Wrap Sentry.init with try/catch for graceful initialization failure handling
+2. Implement fallback capture function that logs locally if Sentry fails
+3. Add retry with exponential backoff for network failures
+4. Implement offline event queue for intermittent connectivity
+5. Add circuit breaker pattern to skip Sentry after repeated failures
+6. Configure request timeout with wrapper function
+7. Implement graceful shutdown with Sentry.close() on SIGTERM
+8. Set up dual-write pattern to multiple error trackers for redundancy
+9. Create health check endpoint to verify Sentry connectivity
+10. Test all failure scenarios to ensure application continues operating
 
 ## Output
 - Graceful degradation implemented

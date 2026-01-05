@@ -1,7 +1,7 @@
 ---
 name: sentry-common-errors
 description: |
-  Troubleshoot common Sentry integration issues and fixes.
+  Execute troubleshoot common Sentry integration issues and fixes.
   Use when encountering Sentry errors, missing events,
   or configuration problems.
   Trigger with phrases like "sentry not working", "sentry errors missing",
@@ -169,10 +169,24 @@ Sentry.init({
 ```
 
 ## Prerequisites
+
 - Sentry SDK installed
 - Debug mode enabled for troubleshooting
 - Access to Sentry dashboard
 - Application logs available
+
+## Instructions
+
+1. Enable debug mode in SDK configuration for verbose output
+2. Verify DSN is set correctly in environment variables
+3. Check beforeSend function returns event (not undefined)
+4. Review sampling rates to ensure events are not being dropped
+5. Verify source maps are uploaded with correct release version
+6. Set user context after authentication for user tracking
+7. Add ignoreErrors patterns for noisy errors to reduce volume
+8. Enable Breadcrumbs integration with appropriate options
+9. Set tracesSampleRate greater than 0 for performance monitoring
+10. Run diagnostic commands to verify connectivity and capture
 
 ## Output
 - Issue root cause identified

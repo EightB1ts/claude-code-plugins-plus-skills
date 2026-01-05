@@ -1,7 +1,7 @@
 ---
 name: "windsurf-debugging-ai"
 description: |
-  Use Cascade for intelligent debugging and error analysis. Activate when users mention
+  Execute use Cascade for intelligent debugging and error analysis. Activate when users mention
   "debug with ai", "error analysis", "cascade debug", "find bug",
   or "troubleshoot code". Handles AI-assisted debugging workflows. Use when debugging issues or troubleshooting. Trigger with phrases like "windsurf debugging ai", "windsurf ai", "windsurf".
 allowed-tools: "Read,Grep,Glob,Bash(cmd:*)"

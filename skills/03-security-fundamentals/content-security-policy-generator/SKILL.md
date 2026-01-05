@@ -1,7 +1,7 @@
 ---
 name: "content-security-policy-generator"
 description: |
-  Content Security Policy Generator - Auto-activating skill for Security Fundamentals.
+  Generate content security policy generator operations. Auto-activating skill for Security Fundamentals.
   Triggers on: content security policy generator, content security policy generator
   Part of the Security Fundamentals skill category. Use when working with content security policy generator functionality. Trigger with phrases like "content security policy generator", "content generator", "content".
 allowed-tools: "Read, Write, Grep, Bash(npm:*)"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Content Security Policy Generator
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for content security policy generator tasks within the Security Fundamentals domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about content security policy generator patterns or best practices
 - Need help with essential security skills covering authentication, input validation, secure coding practices, and basic vulnerability detection.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for content security policy generator
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for content security policy generator
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with content security policy generator"
-- "Set up content security policy generator"
-- "How do I implement content security policy generator?"
+**Example: Basic Usage**
+Request: "Help me with content security policy generator"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of security fundamentals concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

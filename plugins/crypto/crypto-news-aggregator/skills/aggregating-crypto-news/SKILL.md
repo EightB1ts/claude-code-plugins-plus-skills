@@ -1,7 +1,7 @@
 ---
 name: aggregating-crypto-news
 description: |
-  Aggregate breaking crypto news, announcements, and market-moving events in real-time.
+  Execute aggregate breaking crypto news, announcements, and market-moving events in real-time.
   Use when staying updated on crypto market events.
   Trigger with phrases like "get crypto news", "check latest announcements", or "scan for updates".
   

@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Custom Prompts for Cursor
 
+## Overview
+
+This skill helps you create effective custom prompts for Cursor AI. It covers prompt engineering fundamentals, domain-specific templates, advanced techniques like chain-of-thought prompting, and best practices for consistent, high-quality AI responses.
+
 ## Prompt Engineering Fundamentals
 
 ### Effective Prompt Structure

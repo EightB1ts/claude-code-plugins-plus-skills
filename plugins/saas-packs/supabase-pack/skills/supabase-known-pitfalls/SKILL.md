@@ -1,7 +1,7 @@
 ---
 name: supabase-known-pitfalls
 description: |
-  Identify and avoid Supabase anti-patterns and common integration mistakes.
+  Execute identify and avoid Supabase anti-patterns and common integration mistakes.
   Use when reviewing Supabase code for issues, onboarding new developers,
   or auditing existing Supabase integrations for best practices violations.
   Trigger with phrases like "supabase mistakes", "supabase anti-patterns",

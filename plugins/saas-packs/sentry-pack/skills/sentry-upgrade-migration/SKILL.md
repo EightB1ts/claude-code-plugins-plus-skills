@@ -1,7 +1,7 @@
 ---
 name: sentry-upgrade-migration
 description: |
-  Upgrade Sentry SDK and migrate between versions.
+  Execute upgrade Sentry SDK and migrate between versions.
   Use when upgrading Sentry SDK, handling breaking changes,
   or migrating from legacy versions.
   Trigger with phrases like "upgrade sentry", "sentry migration",
@@ -234,6 +234,26 @@ npm ci
 **Example: Upgrade from v7 to v8**
 Request: "Upgrade Sentry JavaScript SDK from 7.x to 8.x"
 Result: Package updated, Hub usage replaced with direct calls, integrations updated, tests passing.
+
+## Prerequisites
+
+- Current Sentry SDK version identified
+- Target version changelog reviewed
+- Non-production environment for testing
+- Test suite for error capture and performance monitoring
+
+## Instructions
+
+1. Check current SDK version with npm list or pip show
+2. Review release notes and changelog for target version
+3. Back up current Sentry configuration file
+4. Update package to target version in non-production first
+5. Run tests to identify breaking changes
+6. Update deprecated APIs following migration guide patterns
+7. Verify error capture works with test error
+8. Verify performance monitoring works with test transaction
+9. Deploy to staging and monitor for issues
+10. Deploy to production after staging validation
 
 ## Resources
 - [Sentry JavaScript Changelog](https://github.com/getsentry/sentry-javascript/blob/master/CHANGELOG.md)

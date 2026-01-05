@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor Hello World - First AI-Powered Project
 
+## Overview
+
+This skill helps you create your first project with Cursor AI features. It provides a quick 5-minute getting started guide covering tab completion, AI chat, and Composer to help you understand and use Cursor's core AI capabilities.
+
 ## Quick Start (5 Minutes)
 
 ### 1. Create New Project

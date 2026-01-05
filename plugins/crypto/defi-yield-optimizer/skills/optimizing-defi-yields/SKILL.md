@@ -1,7 +1,7 @@
 ---
 name: optimizing-defi-yields
 description: |
-  Find and compare DeFi yield opportunities across protocols with APY calculations.
+  Execute find and compare DeFi yield opportunities across protocols with APY calculations.
   Use when finding optimal DeFi yield opportunities.
   Trigger with phrases like "find yield", "optimize returns", or "compare APY".
   

@@ -1,7 +1,7 @@
 ---
 name: building-recommendation-systems
 description: |
-  This skill empowers AI assistant to construct recommendation systems using collaborative filtering, content-based filtering, or hybrid approaches. it analyzes user preferences, item features, and interaction data to generate personalized recommendations... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
+  Execute this skill empowers AI assistant to construct recommendation systems using collaborative filtering, content-based filtering, or hybrid approaches. it analyzes user preferences, item features, and interaction data to generate personalized recommendations... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

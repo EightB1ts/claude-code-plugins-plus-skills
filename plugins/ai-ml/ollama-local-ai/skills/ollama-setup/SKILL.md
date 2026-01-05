@@ -1,7 +1,7 @@
 ---
 name: ollama-setup
 description: |
-  Auto-configure Ollama when user needs local LLM deployment, free AI alternatives,
+  Configure auto-configure Ollama when user needs local LLM deployment, free AI alternatives,
   or wants to eliminate hosted API costs. Trigger phrases: "install ollama",
   "local AI", "free LLM", "self-hosted AI", "replace OpenAI", "no API costs". Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Write, Bash(cmd:*)

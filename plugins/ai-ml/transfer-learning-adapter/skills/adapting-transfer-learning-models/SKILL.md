@@ -1,7 +1,7 @@
 ---
 name: adapting-transfer-learning-models
 description: |
-  This skill automates the adaptation of pre-trained machine learning models using transfer learning techniques. it is triggered when the user requests assistance with fine-tuning a model, adapting a pre-trained model to a new dataset, or performing... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
+  Build this skill automates the adaptation of pre-trained machine learning models using transfer learning techniques. it is triggered when the user requests assistance with fine-tuning a model, adapting a pre-trained model to a new dataset, or performing... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

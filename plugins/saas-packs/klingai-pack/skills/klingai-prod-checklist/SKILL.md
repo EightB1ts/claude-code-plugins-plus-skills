@@ -1,7 +1,7 @@
 ---
 name: klingai-prod-checklist
 description: |
-  Pre-launch production readiness checklist for Kling AI. Use when preparing to deploy video
+  Execute pre-launch production readiness checklist for Kling AI. Use when preparing to deploy video
   generation to production. Trigger with phrases like 'klingai production', 'kling ai go-live',
   'klingai launch checklist', 'deploy klingai'.
 allowed-tools: Read, Write, Edit, Grep

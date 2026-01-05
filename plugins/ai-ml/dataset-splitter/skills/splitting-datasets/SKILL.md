@@ -1,7 +1,7 @@
 ---
 name: splitting-datasets
 description: |
-  Split datasets into training, validation, and testing sets for ML model development. Use when requesting "split dataset", "train-test split", or "data partitioning". Trigger with relevant phrases based on skill purpose.
+  Process split datasets into training, validation, and testing sets for ML model development. Use when requesting "split dataset", "train-test split", or "data partitioning". Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

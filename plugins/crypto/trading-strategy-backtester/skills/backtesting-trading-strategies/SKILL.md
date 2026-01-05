@@ -1,7 +1,7 @@
 ---
 name: backtesting-trading-strategies
 description: |
-  Backtest crypto trading strategies against historical data with performance metrics.
+  Test backtest crypto trading strategies against historical data with performance metrics.
   Use when validating trading strategies with historical data.
   Trigger with phrases like "backtest strategy", "test trading signals", or "validate approach".
   

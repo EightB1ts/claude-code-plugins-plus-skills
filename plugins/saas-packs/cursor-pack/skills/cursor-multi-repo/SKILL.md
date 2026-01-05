@@ -1,7 +1,7 @@
 ---
 name: "cursor-multi-repo"
 description: |
-  Work with multiple repositories in Cursor. Triggers on "cursor multi repo",
+  Manage work with multiple repositories in Cursor. Triggers on "cursor multi repo",
   "cursor multiple projects", "cursor monorepo", "cursor workspace". Use when working with cursor multi repo functionality. Trigger with phrases like "cursor multi repo", "cursor repo", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Multi-Repository Workflows
+
+## Overview
+
+This skill guides you through working with multiple repositories in Cursor. It covers multi-root workspaces, monorepo patterns, selective indexing strategies, and cross-project context management for complex development environments.
 
 ## Multi-Repo Strategies
 

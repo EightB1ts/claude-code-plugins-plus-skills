@@ -1,7 +1,7 @@
 ---
 name: klingai-pricing-basics
 description: |
-  Understand Kling AI pricing, credits, and cost optimization. Use when budgeting or optimizing
+  Manage understand Kling AI pricing, credits, and cost optimization. Use when budgeting or optimizing
   costs for video generation. Trigger with phrases like 'kling ai pricing', 'klingai credits',
   'kling ai cost', 'klingai budget'.
 allowed-tools: Read, Write, Edit, Grep

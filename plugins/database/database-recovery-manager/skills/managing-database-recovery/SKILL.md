@@ -1,7 +1,7 @@
 ---
 name: managing-database-recovery
 description: |
-  Use when you need to work with database operations.
+  Process use when you need to work with database operations.
   This skill provides database management and optimization with comprehensive guidance and automation.
   Trigger with phrases like "manage database", "optimize database",
   or "configure database".

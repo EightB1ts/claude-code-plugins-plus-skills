@@ -1,7 +1,7 @@
 ---
 name: "cursor-known-pitfalls"
 description: |
-  Avoid common Cursor IDE pitfalls and mistakes. Triggers on "cursor pitfalls",
+  Manage avoid common Cursor IDE pitfalls and mistakes. Triggers on "cursor pitfalls",
   "cursor mistakes", "cursor gotchas", "cursor issues", "cursor problems". Use when working with cursor known pitfalls functionality. Trigger with phrases like "cursor known pitfalls", "cursor pitfalls", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Known Pitfalls & Solutions
+
+## Overview
+
+This skill helps you identify and avoid common Cursor IDE pitfalls and mistakes. It covers AI feature pitfalls, configuration issues, security concerns, and team collaboration problems with practical solutions for each.
 
 ## AI Feature Pitfalls
 

@@ -1,7 +1,7 @@
 ---
 name: calculating-crypto-taxes
 description: |
-  Calculate cryptocurrency tax obligations with cost basis tracking and jurisdiction rules.
+  Execute calculate cryptocurrency tax obligations with cost basis tracking and jurisdiction rules.
   Use when calculating crypto tax obligations.
   Trigger with phrases like "calculate crypto taxes", "compute tax liability", or "generate tax report".
   

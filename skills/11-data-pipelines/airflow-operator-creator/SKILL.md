@@ -1,7 +1,7 @@
 ---
 name: "airflow-operator-creator"
 description: |
-  Airflow Operator Creator - Auto-activating skill for Data Pipelines.
+  Create airflow operator creator operations. Auto-activating skill for Data Pipelines.
   Triggers on: airflow operator creator, airflow operator creator
   Part of the Data Pipelines skill category. Use when working with airflow operator creator functionality. Trigger with phrases like "airflow operator creator", "airflow creator", "airflow".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Airflow Operator Creator
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for airflow operator creator tasks within the Data Pipelines domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about airflow operator creator patterns or best practices
 - Need help with data pipeline skills covering etl, data transformation, workflow orchestration, and streaming data processing.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for airflow operator creator
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for airflow operator creator
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with airflow operator creator"
-- "Set up airflow operator creator"
-- "How do I implement airflow operator creator?"
+**Example: Basic Usage**
+Request: "Help me with airflow operator creator"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of data pipelines concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

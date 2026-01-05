@@ -1,7 +1,7 @@
 ---
 name: "learning-rate-scheduler"
 description: |
-  Learning Rate Scheduler - Auto-activating skill for ML Training.
+  Manage learning rate scheduler operations. Auto-activating skill for ML Training.
   Triggers on: learning rate scheduler, learning rate scheduler
   Part of the ML Training skill category. Use when working with learning rate scheduler functionality. Trigger with phrases like "learning rate scheduler", "learning scheduler", "learning".
 allowed-tools: "Read, Write, Edit, Bash(python:*), Bash(pip:*)"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Learning Rate Scheduler
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for learning rate scheduler tasks within the ML Training domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about learning rate scheduler patterns or best practices
 - Need help with machine learning training skills covering data preparation, model training, hyperparameter tuning, and experiment tracking.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for learning rate scheduler
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for learning rate scheduler
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with learning rate scheduler"
-- "Set up learning rate scheduler"
-- "How do I implement learning rate scheduler?"
+**Example: Basic Usage**
+Request: "Help me with learning rate scheduler"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of ml training concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

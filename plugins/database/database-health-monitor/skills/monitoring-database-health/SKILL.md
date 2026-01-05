@@ -1,7 +1,7 @@
 ---
 name: monitoring-database-health
 description: |
-  Use when you need to work with monitoring and observability.
+  Monitor use when you need to work with monitoring and observability.
   This skill provides health monitoring and alerting with comprehensive guidance and automation.
   Trigger with phrases like "monitor system health", "set up alerts",
   or "track metrics".

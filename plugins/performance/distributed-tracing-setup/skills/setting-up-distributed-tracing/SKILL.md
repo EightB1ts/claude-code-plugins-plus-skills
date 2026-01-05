@@ -1,7 +1,7 @@
 ---
 name: setting-up-distributed-tracing
 description: |
-  This skill automates the setup of distributed tracing for microservices. it helps developers implement end-to-end request visibility by configuring context propagation, span creation, trace collection, and analysis. use this skill when the user re... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
+  Execute this skill automates the setup of distributed tracing for microservices. it helps developers implement end-to-end request visibility by configuring context propagation, span creation, trace collection, and analysis. use this skill when the user re... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

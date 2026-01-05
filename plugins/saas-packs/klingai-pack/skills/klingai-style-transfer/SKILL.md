@@ -1,7 +1,7 @@
 ---
 name: klingai-style-transfer
 description: |
-  Apply artistic styles to Kling AI video generation. Use when creating stylized videos,
+  Manage apply artistic styles to Kling AI video generation. Use when creating stylized videos,
   matching brand aesthetics, or artistic effects. Trigger with phrases like 'klingai style',
   'kling ai artistic', 'klingai video style', 'stylize klingai video'.
 allowed-tools: Read, Write, Edit, Grep

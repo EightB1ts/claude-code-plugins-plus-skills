@@ -1,7 +1,7 @@
 ---
 name: managing-autonomous-development
 description: |
-  Enables AI assistant to manage sugar's autonomous development workflows. it allows AI assistant to create tasks, view the status of the system, review pending tasks, and start autonomous execution mode. use this skill when the user asks to create a new develo... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
+  Execute enables AI assistant to manage sugar's autonomous development workflows. it allows AI assistant to create tasks, view the status of the system, review pending tasks, and start autonomous execution mode. use this skill when the user asks to create a new develo... Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

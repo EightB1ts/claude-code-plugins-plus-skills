@@ -1,7 +1,7 @@
 ---
 name: sentry-debug-bundle
 description: |
-  Collect debug information for Sentry support tickets.
+  Execute collect debug information for Sentry support tickets.
   Use when preparing support requests, debugging complex issues,
   or gathering diagnostic information.
   Trigger with phrases like "sentry debug info", "sentry support ticket",
@@ -178,10 +178,24 @@ sentry-cli sourcemaps explain $EVENT_ID
 ```
 
 ## Prerequisites
+
 - Debug mode enabled in SDK
 - Sentry CLI installed for source map diagnostics
 - Access to environment variables
 - Application logs available
+
+## Instructions
+
+1. Run npm list to get SDK version for all Sentry packages
+2. Create debug config export with DSN redacted for sharing
+3. Test network connectivity to sentry.io API endpoint
+4. Capture test event and record event ID
+5. Check integrations loaded with getIntegrations call
+6. Run debug script to collect comprehensive diagnostic info
+7. Format output in markdown template for support ticket
+8. List uploaded source maps using sentry-cli releases files
+9. Use sentry-cli sourcemaps explain for specific event debugging
+10. Include relevant logs and reproduction steps in debug bundle
 
 ## Output
 - Debug information bundle generated

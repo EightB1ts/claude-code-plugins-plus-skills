@@ -1,7 +1,7 @@
 ---
 name: generating-orm-code
 description: |
-  Use when you need to work with ORM code generation.
+  Execute use when you need to work with ORM code generation.
   This skill provides ORM model and code generation with comprehensive guidance and automation.
   Trigger with phrases like "generate ORM models", "create entity classes",
   or "scaffold database models".

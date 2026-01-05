@@ -1,7 +1,7 @@
 ---
 name: vercel-advanced-troubleshooting
 description: |
-  Apply Vercel advanced debugging techniques for hard-to-diagnose issues.
+  Execute apply Vercel advanced debugging techniques for hard-to-diagnose issues.
   Use when standard troubleshooting fails, investigating complex race conditions,
   or preparing evidence bundles for Vercel support escalation.
   Trigger with phrases like "vercel hard bug", "vercel mystery error",

@@ -1,7 +1,7 @@
 ---
 name: sentry-observability
 description: |
-  Integrate Sentry with observability stack.
+  Execute integrate Sentry with observability stack.
   Use when connecting Sentry to logging, metrics, APM tools,
   or building unified observability dashboards.
   Trigger with phrases like "sentry observability", "sentry logging integration",
@@ -236,10 +236,24 @@ actions:
 5. **Use Sentry for errors**, APM for performance, logs for debugging
 
 ## Prerequisites
+
 - Existing observability stack (logging, metrics, APM)
 - Trace ID correlation strategy
 - Dashboard platform (Grafana, Datadog, etc.)
 - Alert routing defined
+
+## Instructions
+
+1. Integrate logging library to send errors to Sentry as breadcrumbs
+2. Add request ID tags for log correlation in Sentry scope
+3. Track custom metrics using Sentry setMeasurement in transactions
+4. Correlate with Prometheus by adding sentry_event_id label
+5. Add APM trace IDs to Sentry events in beforeSend hook
+6. Enable OpenTelemetry integration for automatic trace correlation
+7. Create Grafana dashboard panels using Sentry API data
+8. Configure PagerDuty integration for alert escalation
+9. Add context links (logs, APM) to Slack alert templates
+10. Establish consistent trace ID tagging across all observability tools
 
 ## Output
 - Sentry integrated with logging system

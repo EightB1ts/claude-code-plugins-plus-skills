@@ -173,10 +173,24 @@ actions:
 5. **Disable or reduce noise in development**
 
 ## Prerequisites
+
 - Environment naming convention defined
 - DSN management strategy
 - Sample rate requirements per environment
 - Alert routing per environment
+
+## Instructions
+
+1. Set environment option in SDK init to match deployment target
+2. Configure environment-specific sample rates (100% dev, 10% prod)
+3. Choose project structure (single with environments vs separate projects)
+4. Set up separate DSNs per environment in environment variables
+5. Implement conditional DSN loading to disable in development
+6. Add environment context and tags in beforeSend hook
+7. Configure environment filters in Sentry dashboard
+8. Create production-only alert rules with appropriate conditions
+9. Set up lower-priority staging alerts for development feedback
+10. Document environment configuration and best practices for team
 
 ## Output
 - Environment-specific Sentry configuration

@@ -1,7 +1,7 @@
 ---
 name: sprint-workflow
 description: |
-  This skill should be used when the user asks about "how sprints work", "sprint phases", "iteration workflow", "convergent development", "sprint lifecycle", "when to use sprints", or wants to understand the sprint execution model and its convergent diffusion approach. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
+  Execute this skill should be used when the user asks about "how sprints work", "sprint phases", "iteration workflow", "convergent development", "sprint lifecycle", "when to use sprints", or wants to understand the sprint execution model and its convergent diffusion approach. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read
 version: 1.0.0
 author: Damien Laine <damien.laine@gmail.com>

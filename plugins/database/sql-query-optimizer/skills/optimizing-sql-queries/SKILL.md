@@ -1,7 +1,7 @@
 ---
 name: optimizing-sql-queries
 description: |
-  Use when you need to work with query optimization.
+  Execute use when you need to work with query optimization.
   This skill provides query performance analysis with comprehensive guidance and automation.
   Trigger with phrases like "optimize queries", "analyze performance",
   or "improve query speed".

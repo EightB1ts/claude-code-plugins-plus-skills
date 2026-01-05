@@ -1,7 +1,7 @@
 ---
 name: detecting-data-anomalies
 description: |
-  Identify anomalies and outliers in datasets using machine learning algorithms.
+  Process identify anomalies and outliers in datasets using machine learning algorithms.
   Use when analyzing data for unusual patterns, outliers, or unexpected deviations from normal behavior.
   Trigger with phrases like "detect anomalies", "find outliers", or "identify unusual patterns".
   

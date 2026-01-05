@@ -1,7 +1,7 @@
 ---
 name: optimizing-gas-fees
 description: |
-  Predict optimal gas prices and transaction timing to minimize blockchain transaction costs.
+  Execute predict optimal gas prices and transaction timing to minimize blockchain transaction costs.
   Use when optimizing blockchain transaction costs.
   Trigger with phrases like "optimize gas", "check gas prices", or "minimize fees".
   

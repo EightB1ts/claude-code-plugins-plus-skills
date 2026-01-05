@@ -1,7 +1,7 @@
 ---
 name: orchestrating-test-execution
 description: |
-  Coordinate parallel test execution across multiple environments and frameworks.
+  Test coordinate parallel test execution across multiple environments and frameworks.
   Use when performing specialized testing.
   Trigger with phrases like "orchestrate tests", "run parallel tests", or "coordinate test execution".
   

@@ -1,7 +1,7 @@
 ---
 name: analyzing-text-with-nlp
 description: |
-  This skill enables AI assistant to perform natural language processing and text analysis using the nlp-text-analyzer plugin. it should be used when the user requests analysis of text, including sentiment analysis, keyword extraction, topic modeling, or ... Use when analyzing code or data. Trigger with phrases like 'analyze', 'review', or 'examine'.
+  Execute this skill enables AI assistant to perform natural language processing and text analysis using the nlp-text-analyzer plugin. it should be used when the user requests analysis of text, including sentiment analysis, keyword extraction, topic modeling, or ... Use when analyzing code or data. Trigger with phrases like 'analyze', 'review', or 'examine'.
 allowed-tools: Read, Bash(cmd:*), Grep, Glob
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

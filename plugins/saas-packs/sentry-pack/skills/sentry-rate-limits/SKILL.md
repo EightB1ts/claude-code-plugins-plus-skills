@@ -188,10 +188,24 @@ Sentry.init({
 ```
 
 ## Prerequisites
+
 - Understanding of current event volume
 - Sentry billing plan known
 - High-volume endpoints identified
 - Noisy error patterns documented
+
+## Instructions
+
+1. Check current usage via Sentry API or dashboard stats
+2. Implement error sampling with sampleRate for non-critical errors
+3. Configure dynamic transaction sampling with tracesSampler
+4. Add ignoreErrors patterns for common noisy errors
+5. Enable deduplication integration to reduce duplicates
+6. Apply client-side filtering in beforeSend hook
+7. Set project rate limits via API or dashboard
+8. Enable inbound filters for legacy browsers and extensions
+9. Monitor event volume and set up quota alerts
+10. Adjust sample rates based on billing period usage
 
 ## Output
 - Optimized sample rates configured

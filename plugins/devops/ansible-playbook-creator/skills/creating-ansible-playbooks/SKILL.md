@@ -1,7 +1,7 @@
 ---
 name: creating-ansible-playbooks
 description: |
-  Use when you need to work with Ansible automation.
+  Execute use when you need to work with Ansible automation.
   This skill provides Ansible playbook creation with comprehensive guidance and automation.
   Trigger with phrases like "create Ansible playbook", "automate with Ansible",
   or "configure with Ansible".

@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor Context Management
 
+## Overview
+
+This skill helps optimize context window usage in Cursor. It covers understanding context sources, efficient @-mention strategies, conversation management, and techniques to avoid context overflow for better AI response quality.
+
 ## Understanding Context
 
 ### What is Context?

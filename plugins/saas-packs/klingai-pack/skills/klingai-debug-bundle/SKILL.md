@@ -1,7 +1,7 @@
 ---
 name: klingai-debug-bundle
 description: |
-  Set up comprehensive logging and debugging for Kling AI. Use when investigating issues or
+  Execute set up comprehensive logging and debugging for Kling AI. Use when investigating issues or
   monitoring requests. Trigger with phrases like 'klingai debug', 'kling ai logging',
   'trace klingai', 'monitor klingai requests'.
 allowed-tools: Read, Write, Edit, Grep

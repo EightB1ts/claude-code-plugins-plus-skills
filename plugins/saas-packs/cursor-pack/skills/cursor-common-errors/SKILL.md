@@ -1,7 +1,7 @@
 ---
 name: "cursor-common-errors"
 description: |
-  Troubleshoot common Cursor IDE errors and issues. Triggers on "cursor error",
+  Execute troubleshoot common Cursor IDE errors and issues. Triggers on "cursor error",
   "cursor not working", "cursor issue", "cursor problem", "fix cursor". Use when working with cursor common errors functionality. Trigger with phrases like "cursor common errors", "cursor errors", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Common Errors & Solutions
+
+## Overview
+
+This skill helps troubleshoot common Cursor IDE errors and issues. It provides solutions for authentication problems, completion errors, indexing failures, API key issues, performance problems, and crash recovery procedures.
 
 ## Authentication Errors
 

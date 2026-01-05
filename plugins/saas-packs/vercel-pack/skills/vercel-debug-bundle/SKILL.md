@@ -1,7 +1,7 @@
 ---
 name: vercel-debug-bundle
 description: |
-  Collect Vercel debug evidence for support tickets and troubleshooting.
+  Execute collect Vercel debug evidence for support tickets and troubleshooting.
   Use when encountering persistent issues, preparing support tickets,
   or collecting diagnostic information for Vercel problems.
   Trigger with phrases like "vercel debug", "vercel support bundle",

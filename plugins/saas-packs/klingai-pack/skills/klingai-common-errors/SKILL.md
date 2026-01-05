@@ -1,7 +1,7 @@
 ---
 name: klingai-common-errors
 description: |
-  Diagnose and fix common Kling AI API errors. Use when troubleshooting failed video generation
+  Execute diagnose and fix common Kling AI API errors. Use when troubleshooting failed video generation
   or API issues. Trigger with phrases like 'kling ai error', 'klingai not working', 'fix klingai',
   'klingai failed'.
 allowed-tools: Read, Write, Edit, Grep
@@ -293,22 +293,39 @@ def handle_response(response):
 
 ## Output
 
-Successful execution produces:
-- Identified error cause
-- Applied fix
-- Verified resolution
-- Improved error handling
+- Diagnostic report identifying the specific error type and root cause
+- Code fixes with corrected authentication, parameter validation, or retry logic
+- Verified resolution through successful API test request
+- Enhanced error handling patterns integrated into codebase
+- Documentation of the error and solution for future reference
 
 ## Error Handling
 
-See detailed error reference above for all common errors and solutions.
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Multiple errors simultaneously | Cascading failures from initial auth issue | Fix authentication first, then re-test other operations |
+| Error not in reference | New or undocumented API behavior | Check status page, contact support with request ID |
+| Intermittent failures | Network issues or regional outages | Implement retry logic with exponential backoff |
+| Fix not working | Outdated error codes or API changes | Verify against latest API documentation |
 
 ## Examples
 
-See code examples above for complete, runnable implementations.
+**Example: Diagnose Authentication Error**
+Request: "My Kling AI video generation keeps failing with 401 errors"
+Result: Identified missing Bearer prefix in Authorization header, applied fix, verified with successful test generation
+
+**Example: Handle Rate Limiting**
+Request: "Getting too many requests errors when batch processing videos"
+Result: Implemented exponential backoff retry decorator, added request queuing, batch now processes without rate limit errors
+
+**Example: Debug Generation Failure**
+Request: "Video generation fails with no clear error message"
+Result: Analyzed generation job details, identified prompt complexity issue, simplified scene description, successful generation on retry
 
 ## Resources
 
-- [Kling AI Error Codes](https://docs.klingai.com/errors)
-- [Status Page](https://status.klingai.com)
-- [Support](https://klingai.com/support)
+- [Kling AI API Documentation](https://docs.klingai.com/)
+- [Kling AI Error Reference](https://docs.klingai.com/errors)
+- [Kling AI Status Page](https://status.klingai.com)
+- [Kling AI Support Portal](https://klingai.com/support)
+- [Kling AI Developer Community](https://community.klingai.com)

@@ -1,7 +1,7 @@
 ---
 name: klingai-ci-integration
 description: |
-  Integrate Kling AI video generation into CI/CD pipelines. Use when automating video
+  Execute integrate Kling AI video generation into CI/CD pipelines. Use when automating video
   content generation in build pipelines. Trigger with phrases like 'klingai ci',
   'kling ai github actions', 'klingai automation', 'automated video generation'.
 allowed-tools: Read, Write, Edit, Grep

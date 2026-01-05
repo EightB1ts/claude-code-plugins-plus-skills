@@ -1,7 +1,7 @@
 ---
 name: configuring-load-balancers
 description: |
-  Use when configuring load balancers including ALB, NLB, Nginx, and HAProxy. Trigger with phrases like "configure load balancer", "create ALB", "setup nginx load balancing", or "haproxy configuration". Generates production-ready configurations with health checks, SSL termination, sticky sessions, and traffic distribution rules.
+  Configure use when configuring load balancers including ALB, NLB, Nginx, and HAProxy. Trigger with phrases like "configure load balancer", "create ALB", "setup nginx load balancing", or "haproxy configuration". Generates production-ready configurations with health checks, SSL termination, sticky sessions, and traffic distribution rules.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(aws:*), Bash(gcloud:*), Bash(nginx:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

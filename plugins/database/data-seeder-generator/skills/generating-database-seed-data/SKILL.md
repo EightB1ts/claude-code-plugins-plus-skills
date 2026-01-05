@@ -1,7 +1,7 @@
 ---
 name: generating-database-seed-data
 description: |
-  This skill enables AI assistant to generate realistic test data and database seed scripts for development and testing environments. it uses faker libraries to create realistic data, maintains relational integrity, and allows configurable data volumes. u... Use when working with databases or data models. Trigger with phrases like 'database', 'query', or 'schema'.
+  Process this skill enables AI assistant to generate realistic test data and database seed scripts for development and testing environments. it uses faker libraries to create realistic data, maintains relational integrity, and allows configurable data volumes. u... Use when working with databases or data models. Trigger with phrases like 'database', 'query', or 'schema'.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

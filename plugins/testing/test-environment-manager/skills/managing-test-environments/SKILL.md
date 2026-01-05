@@ -1,7 +1,7 @@
 ---
 name: managing-test-environments
 description: |
-  Provision and manage isolated test environments with configuration and data.
+  Test provision and manage isolated test environments with configuration and data.
   Use when performing specialized testing.
   Trigger with phrases like "manage test environment", "provision test env", or "setup test infrastructure".
   

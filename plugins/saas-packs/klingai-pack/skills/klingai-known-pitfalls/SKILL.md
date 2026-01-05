@@ -1,7 +1,7 @@
 ---
 name: klingai-known-pitfalls
 description: |
-  Avoid common mistakes when using Kling AI. Use when troubleshooting issues or learning
+  Manage avoid common mistakes when using Kling AI. Use when troubleshooting issues or learning
   best practices to prevent problems. Trigger with phrases like 'klingai pitfalls',
   'kling ai mistakes', 'klingai gotchas', 'klingai best practices'.
 allowed-tools: Read, Write, Edit, Grep

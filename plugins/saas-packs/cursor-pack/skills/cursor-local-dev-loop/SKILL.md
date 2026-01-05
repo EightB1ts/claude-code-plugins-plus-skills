@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor Local Development Loop
 
+## Overview
+
+This skill helps optimize your local development workflow with Cursor IDE. It provides guidance on daily development patterns, keyboard-driven workflows, and efficient AI-assisted coding practices to maximize productivity.
+
 ## Optimal Development Workflow
 
 ### Morning Startup

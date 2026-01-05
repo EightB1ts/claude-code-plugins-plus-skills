@@ -1,7 +1,7 @@
 ---
 name: sentry-error-capture
 description: |
-  Advanced error capture and context enrichment with Sentry.
+  Execute advanced error capture and context enrichment with Sentry.
   Use when implementing detailed error tracking, adding context,
   or customizing error capture behavior.
   Trigger with phrases like "sentry error capture", "sentry context",

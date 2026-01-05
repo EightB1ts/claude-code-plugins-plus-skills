@@ -1,7 +1,7 @@
 ---
 name: klingai-model-catalog
 description: |
-  Explore Kling AI models and their capabilities for video generation. Use when selecting models
+  Build explore Kling AI models and their capabilities for video generation. Use when selecting models
   or understanding features. Trigger with phrases like 'kling ai models', 'klingai capabilities',
   'kling video models', 'klingai features'.
 allowed-tools: Read, Write, Edit, Grep

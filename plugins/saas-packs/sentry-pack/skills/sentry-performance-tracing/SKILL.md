@@ -1,7 +1,7 @@
 ---
 name: sentry-performance-tracing
 description: |
-  Set up performance monitoring and distributed tracing with Sentry.
+  Execute set up performance monitoring and distributed tracing with Sentry.
   Use when implementing performance tracking, tracing requests,
   or monitoring application performance.
   Trigger with phrases like "sentry performance", "sentry tracing",

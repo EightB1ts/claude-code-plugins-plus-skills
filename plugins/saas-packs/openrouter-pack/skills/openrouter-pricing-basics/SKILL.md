@@ -1,7 +1,7 @@
 ---
 name: openrouter-pricing-basics
 description: |
-  Understand OpenRouter pricing and cost estimation. Use when budgeting or optimizing costs. Trigger with phrases like 'openrouter pricing', 'openrouter costs', 'openrouter budget', 'openrouter token pricing'.
+  Execute understand OpenRouter pricing and cost estimation. Use when budgeting or optimizing costs. Trigger with phrases like 'openrouter pricing', 'openrouter costs', 'openrouter budget', 'openrouter token pricing'.
 allowed-tools: Read, Write, Edit, Grep
 version: 1.0.0
 license: MIT

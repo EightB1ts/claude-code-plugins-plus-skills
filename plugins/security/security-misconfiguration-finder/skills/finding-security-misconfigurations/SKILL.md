@@ -1,7 +1,7 @@
 ---
 name: finding-security-misconfigurations
 description: |
-  Identify security misconfigurations in infrastructure-as-code, application settings, and system configurations.
+  Configure identify security misconfigurations in infrastructure-as-code, application settings, and system configurations.
   Use when you need to audit Terraform/CloudFormation templates, check application config files, validate system security settings, or ensure compliance with security best practices.
   Trigger with phrases like "find security misconfigurations", "audit infrastructure security", "check config security", or "scan for misconfigured settings".
   

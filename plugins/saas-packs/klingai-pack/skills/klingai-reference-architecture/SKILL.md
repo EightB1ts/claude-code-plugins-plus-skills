@@ -1,7 +1,7 @@
 ---
 name: klingai-reference-architecture
 description: |
-  Production-ready reference architecture for Kling AI video platforms. Use when designing
+  Execute production-ready reference architecture for Kling AI video platforms. Use when designing
   scalable video generation systems. Trigger with phrases like 'klingai architecture',
   'kling ai system design', 'video platform architecture', 'klingai production setup'.
 allowed-tools: Read, Write, Edit, Grep

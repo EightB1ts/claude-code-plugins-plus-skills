@@ -1,7 +1,7 @@
 ---
 name: supabase-debug-bundle
 description: |
-  Collect Supabase debug evidence for support tickets and troubleshooting.
+  Execute collect Supabase debug evidence for support tickets and troubleshooting.
   Use when encountering persistent issues, preparing support tickets,
   or collecting diagnostic information for Supabase problems.
   Trigger with phrases like "supabase debug", "supabase support bundle",

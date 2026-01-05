@@ -1,7 +1,7 @@
 ---
 name: vercel-known-pitfalls
 description: |
-  Identify and avoid Vercel anti-patterns and common integration mistakes.
+  Execute identify and avoid Vercel anti-patterns and common integration mistakes.
   Use when reviewing Vercel code for issues, onboarding new developers,
   or auditing existing Vercel integrations for best practices violations.
   Trigger with phrases like "vercel mistakes", "vercel anti-patterns",

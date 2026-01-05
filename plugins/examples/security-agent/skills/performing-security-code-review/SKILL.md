@@ -1,7 +1,7 @@
 ---
 name: performing-security-code-review
 description: |
-  This skill enables AI assistant to conduct a security-focused code review using the security-agent plugin. it analyzes code for potential vulnerabilities like sql injection, xss, authentication flaws, and insecure dependencies. AI assistant uses this skill wh... Use when assessing security or running audits. Trigger with phrases like 'security scan', 'audit', or 'vulnerability'.
+  Execute this skill enables AI assistant to conduct a security-focused code review using the security-agent plugin. it analyzes code for potential vulnerabilities like sql injection, xss, authentication flaws, and insecure dependencies. AI assistant uses this skill wh... Use when assessing security or running audits. Trigger with phrases like 'security scan', 'audit', or 'vulnerability'.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

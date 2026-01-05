@@ -1,7 +1,7 @@
 ---
 name: preprocessing-data-with-automated-pipelines
 description: |
-  Automate data cleaning, transformation, and validation for ML tasks. Use when requesting "preprocess data", "clean data", "ETL pipeline", or "data transformation". Trigger with relevant phrases based on skill purpose.
+  Process automate data cleaning, transformation, and validation for ML tasks. Use when requesting "preprocess data", "clean data", "ETL pipeline", or "data transformation". Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

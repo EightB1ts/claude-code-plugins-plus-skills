@@ -1,7 +1,7 @@
 ---
 name: vercel-upgrade-migration
 description: |
-  Analyze, plan, and execute Vercel SDK upgrades with breaking change detection.
+  Execute analyze, plan, and execute Vercel SDK upgrades with breaking change detection.
   Use when upgrading Vercel SDK versions, detecting deprecations,
   or migrating to new API versions.
   Trigger with phrases like "upgrade vercel", "vercel migration",

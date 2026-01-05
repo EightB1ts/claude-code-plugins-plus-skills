@@ -1,7 +1,7 @@
 ---
 name: analyzing-on-chain-data
 description: |
-  Perform on-chain analysis including whale tracking, token flows, and network activity.
+  Process perform on-chain analysis including whale tracking, token flows, and network activity.
   Use when performing crypto analysis.
   Trigger with phrases like "analyze crypto", "check blockchain", or "monitor market".
   

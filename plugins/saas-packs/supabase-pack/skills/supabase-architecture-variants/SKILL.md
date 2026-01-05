@@ -1,7 +1,7 @@
 ---
 name: supabase-architecture-variants
 description: |
-  Choose and implement Supabase validated architecture blueprints for different scales.
+  Execute choose and implement Supabase validated architecture blueprints for different scales.
   Use when designing new Supabase integrations, choosing between monolith/service/microservice
   architectures, or planning migration paths for Supabase applications.
   Trigger with phrases like "supabase architecture", "supabase blueprint",

@@ -1,7 +1,7 @@
 ---
 name: generating-helm-charts
 description: |
-  Use when generating Helm charts for Kubernetes applications. Trigger with phrases like "create Helm chart", "generate chart for app", "package Kubernetes deployment", or "helm template". Produces production-ready charts with Chart.yaml, values.yaml, templates, and best practices for multi-environment deployments.
+  Execute use when generating Helm charts for Kubernetes applications. Trigger with phrases like "create Helm chart", "generate chart for app", "package Kubernetes deployment", or "helm template". Produces production-ready charts with Chart.yaml, values.yaml, templates, and best practices for multi-environment deployments.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(helm:*), Bash(kubectl:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

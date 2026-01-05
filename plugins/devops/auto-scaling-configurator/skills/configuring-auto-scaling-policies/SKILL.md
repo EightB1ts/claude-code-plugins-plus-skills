@@ -1,7 +1,7 @@
 ---
 name: configuring-auto-scaling-policies
 description: |
-  Use when you need to work with auto-scaling.
+  Configure use when you need to work with auto-scaling.
   This skill provides auto-scaling configuration with comprehensive guidance and automation.
   Trigger with phrases like "configure auto-scaling", "set up elastic scaling",
   or "implement scaling".

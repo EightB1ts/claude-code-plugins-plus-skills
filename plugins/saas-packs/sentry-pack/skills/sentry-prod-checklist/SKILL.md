@@ -1,7 +1,7 @@
 ---
 name: sentry-prod-checklist
 description: |
-  Production deployment checklist for Sentry integration.
+  Execute production deployment checklist for Sentry integration.
   Use when preparing for production deployment, reviewing
   Sentry configuration, or verifying production readiness.
   Trigger with phrases like "sentry production", "deploy sentry",
@@ -194,6 +194,14 @@ tracesSampleRate: 0.01,
 curl https://status.sentry.io/api/v2/status.json
 ```
 
+## Output
+
+- Production-ready Sentry configuration
+- Verified source map uploads
+- Configured alert rules and notifications
+- Documented release workflow
+- Validated error capture with test events
+
 ## Error Handling
 
 | Error | Cause | Solution |
@@ -208,6 +216,26 @@ curl https://status.sentry.io/api/v2/status.json
 **Example: Pre-Launch Verification**
 Request: "Verify Sentry is ready for production launch"
 Result: Complete checklist passed, test error captured, source maps verified, alerts configured.
+
+## Prerequisites
+
+- Sentry account with project created
+- Production DSN separate from development/staging
+- Build pipeline with source map generation
+- sentry-cli installed and configured with auth token
+
+## Instructions
+
+1. Configure production DSN via environment variables (never hardcode)
+2. Set environment to "production" and configure release version
+3. Generate source maps during build process
+4. Upload source maps using sentry-cli releases commands
+5. Verify security settings (sendDefaultPii: false, debug: false)
+6. Configure appropriate sample rates for production volume
+7. Set up alert rules with team notification channels
+8. Connect source control and issue tracker integrations
+9. Run verification test to confirm error capture and source maps
+10. Document rollback procedure for emergency disable
 
 ## Resources
 - [Sentry Production Checklist](https://docs.sentry.io/product/releases/setup/)

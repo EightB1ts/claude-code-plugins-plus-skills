@@ -1,7 +1,7 @@
 ---
 name: supabase-advanced-troubleshooting
 description: |
-  Apply Supabase advanced debugging techniques for hard-to-diagnose issues.
+  Execute apply Supabase advanced debugging techniques for hard-to-diagnose issues.
   Use when standard troubleshooting fails, investigating complex race conditions,
   or preparing evidence bundles for Supabase support escalation.
   Trigger with phrases like "supabase hard bug", "supabase mystery error",

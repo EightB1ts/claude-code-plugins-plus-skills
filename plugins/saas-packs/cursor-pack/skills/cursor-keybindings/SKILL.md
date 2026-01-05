@@ -1,7 +1,7 @@
 ---
 name: "cursor-keybindings"
 description: |
-  Master Cursor keyboard shortcuts and customize keybindings. Triggers on "cursor shortcuts",
+  Manage master Cursor keyboard shortcuts and customize keybindings. Triggers on "cursor shortcuts",
   "cursor keybindings", "cursor keyboard", "cursor hotkeys", "cursor commands". Use when working with cursor keybindings functionality. Trigger with phrases like "cursor keybindings", "cursor keybindings", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Keybindings & Shortcuts
+
+## Overview
+
+This skill helps you master Cursor keyboard shortcuts and customize keybindings. It provides a complete reference for AI-specific shortcuts, standard editor commands, and guidance on resolving conflicts with Vim mode or other extensions.
 
 ## AI-Specific Shortcuts
 

@@ -1,7 +1,7 @@
 ---
 name: version-bumper
 description: |
-  Automatically handles semantic version updates across plugin.json and marketplace catalog when user mentions version bump, update version, or release. ensures version consistency in AI assistant-code-plugins repository. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
+  Execute automatically handles semantic version updates across plugin.json and marketplace catalog when user mentions version bump, update version, or release. ensures version consistency in AI assistant-code-plugins repository. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Write, Edit, Grep, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

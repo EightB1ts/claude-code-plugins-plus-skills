@@ -1,7 +1,7 @@
 ---
 name: detecting-performance-bottlenecks
 description: |
-  This skill enables AI assistant to detect and resolve performance bottlenecks in applications. it analyzes cpu, memory, i/o, and database performance to identify areas of concern. use this skill when you need to diagnose slow application performance, op... Use when optimizing performance. Trigger with phrases like 'optimize', 'performance', or 'speed up'.
+  Execute this skill enables AI assistant to detect and resolve performance bottlenecks in applications. it analyzes cpu, memory, i/o, and database performance to identify areas of concern. use this skill when you need to diagnose slow application performance, op... Use when optimizing performance. Trigger with phrases like 'optimize', 'performance', or 'speed up'.
 allowed-tools: Read, Bash(cmd:*), Grep, Glob
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

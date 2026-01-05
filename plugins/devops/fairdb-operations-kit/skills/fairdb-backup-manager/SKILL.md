@@ -1,7 +1,7 @@
 ---
 name: fairdb-backup-manager
 description: |
-  Use when you need to work with backup and recovery.
+  Manage use when you need to work with backup and recovery.
   This skill provides backup automation and disaster recovery with comprehensive guidance and automation.
   Trigger with phrases like "create backups", "automate backups",
   or "implement disaster recovery".

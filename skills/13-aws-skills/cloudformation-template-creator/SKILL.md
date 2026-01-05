@@ -1,7 +1,7 @@
 ---
 name: "cloudformation-template-creator"
 description: |
-  Cloudformation Template Creator - Auto-activating skill for AWS Skills.
+  Create cloudformation template creator operations. Auto-activating skill for AWS Skills.
   Triggers on: cloudformation template creator, cloudformation template creator
   Part of the AWS Skills skill category. Use when working with cloudformation template creator functionality. Trigger with phrases like "cloudformation template creator", "cloudformation creator", "cloudformation".
 allowed-tools: "Read, Write, Edit, Bash(aws:*)"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cloudformation Template Creator
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for cloudformation template creator tasks within the AWS Skills domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about cloudformation template creator patterns or best practices
 - Need help with amazon web services skills covering compute, storage, networking, serverless, and aws-specific best practices.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for cloudformation template creator
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for cloudformation template creator
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with cloudformation template creator"
-- "Set up cloudformation template creator"
-- "How do I implement cloudformation template creator?"
+**Example: Basic Usage**
+Request: "Help me with cloudformation template creator"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of aws skills concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

@@ -1,7 +1,7 @@
 ---
 name: openrouter-load-balancing
 description: |
-  Distribute requests across multiple OpenRouter configurations. Use when scaling or implementing geographic distribution. Trigger with phrases like 'openrouter load balance', 'distribute requests', 'openrouter scaling', 'multi-key openrouter'.
+  Execute distribute requests across multiple OpenRouter configurations. Use when scaling or implementing geographic distribution. Trigger with phrases like 'openrouter load balance', 'distribute requests', 'openrouter scaling', 'multi-key openrouter'.
 allowed-tools: Read, Write, Edit, Grep
 version: 1.0.0
 license: MIT

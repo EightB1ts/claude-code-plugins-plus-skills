@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor Usage Analytics
 
+## Overview
+
+This skill helps you track and analyze Cursor usage metrics. It covers available analytics for Business/Enterprise plans, dashboard views, custom reports, API access, and strategies for optimizing team productivity based on usage data.
+
 ## Analytics Overview
 
 ### Available Metrics (Business/Enterprise)

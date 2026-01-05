@@ -1,7 +1,7 @@
 ---
 name: openrouter-upgrade-migration
 description: |
-  Migrate and upgrade OpenRouter SDK versions safely. Use when updating dependencies or migrating configurations. Trigger with phrases like 'openrouter upgrade', 'openrouter migration', 'update openrouter', 'openrouter breaking changes'.
+  Execute migrate and upgrade OpenRouter SDK versions safely. Use when updating dependencies or migrating configurations. Trigger with phrases like 'openrouter upgrade', 'openrouter migration', 'update openrouter', 'openrouter breaking changes'.
 allowed-tools: Read, Write, Edit, Grep
 version: 1.0.0
 license: MIT

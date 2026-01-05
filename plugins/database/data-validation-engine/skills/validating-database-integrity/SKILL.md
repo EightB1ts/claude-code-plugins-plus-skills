@@ -1,7 +1,7 @@
 ---
 name: validating-database-integrity
 description: |
-  Use when you need to ensure database integrity through comprehensive data validation.
+  Process use when you need to ensure database integrity through comprehensive data validation.
   This skill validates data types, ranges, formats, referential integrity, and business rules.
   Trigger with phrases like "validate database data", "implement data validation rules",
   "enforce data integrity constraints", or "validate data formats".

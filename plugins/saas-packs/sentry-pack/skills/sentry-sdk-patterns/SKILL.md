@@ -1,7 +1,7 @@
 ---
 name: sentry-sdk-patterns
 description: |
-  Best practices for using Sentry SDK in TypeScript and Python.
+  Execute best practices for using Sentry SDK in TypeScript and Python.
   Use when implementing error handling patterns, structuring Sentry code,
   or optimizing SDK usage.
   Trigger with phrases like "sentry best practices", "sentry patterns",
@@ -23,6 +23,15 @@ Best practices and patterns for using Sentry SDK effectively.
 - Familiarity with async/await patterns
 
 ## Instructions
+
+1. Create a centralized error handler module for consistent error capture
+2. Implement scoped context for transactions and operations
+3. Add structured breadcrumbs for debugging context
+4. Configure error boundaries in frameworks (React, Vue, etc.)
+5. Use custom fingerprinting for better issue grouping
+6. Implement async error handling with proper scope propagation
+7. Add performance tracing for critical paths
+8. Configure sampling rates based on traffic volume
 
 ### Pattern 1: Centralized Error Handler
 ```typescript
@@ -157,6 +166,14 @@ Sentry.captureException(error, {
 ```
 
 ## Examples
+
+**Example: Implement Centralized Error Handler**
+Request: "Create a reusable error handling module for our Node.js API"
+Result: Created lib/sentry.ts with captureError function, scope management, and breadcrumb utilities
+
+**Example: Add Transaction Tracing**
+Request: "Track performance of our checkout flow"
+Result: Implemented transaction with child spans for cart, payment, and confirmation steps
 
 ### Python Patterns
 ```python

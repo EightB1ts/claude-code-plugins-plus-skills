@@ -1,7 +1,7 @@
 ---
 name: openrouter-model-catalog
 description: |
-  Explore and query the OpenRouter model catalog programmatically. Use when selecting models or checking availability. Trigger with phrases like 'openrouter models', 'list openrouter models', 'openrouter model catalog', 'available models openrouter'.
+  Build explore and query the OpenRouter model catalog programmatically. Use when selecting models or checking availability. Trigger with phrases like 'openrouter models', 'list openrouter models', 'openrouter model catalog', 'available models openrouter'.
 allowed-tools: Read, Write, Edit, Grep
 version: 1.0.0
 license: MIT

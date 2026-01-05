@@ -1,7 +1,7 @@
 ---
 name: code-formatter
 description: |
-  Automatically formats and validates code files using Prettier and other formatting tools.
+  Execute automatically formats and validates code files using Prettier and other formatting tools.
   Use when users mention "format my code", "fix formatting", "apply code style",
   "check formatting", "make code consistent", or "clean up code formatting".
   Handles JavaScript, TypeScript, JSON, CSS, Markdown, and many other file types. Trigger with relevant phrases based on skill purpose.

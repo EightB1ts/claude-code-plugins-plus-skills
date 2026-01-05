@@ -1,7 +1,7 @@
 ---
 name: vercel-common-errors
 description: |
-  Diagnose and fix Vercel common errors and exceptions.
+  Execute diagnose and fix Vercel common errors and exceptions.
   Use when encountering Vercel errors, debugging failed requests,
   or troubleshooting integration issues.
   Trigger with phrases like "vercel error", "fix vercel",

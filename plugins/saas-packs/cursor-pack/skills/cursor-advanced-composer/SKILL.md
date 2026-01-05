@@ -1,7 +1,7 @@
 ---
 name: "cursor-advanced-composer"
 description: |
-  Advanced Cursor Composer techniques for complex edits. Triggers on "advanced composer",
+  Manage advanced Cursor Composer techniques for complex edits. Triggers on "advanced composer",
   "composer patterns", "multi-file generation", "composer refactoring". Use when working with cursor advanced composer functionality. Trigger with phrases like "cursor advanced composer", "cursor composer", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Advanced Cursor Composer Techniques
+
+## Overview
+
+This skill covers advanced Cursor Composer techniques for complex multi-file edits. It provides patterns for coordinated file creation, architecture migrations, pattern replication, and quality control workflows for large-scale code generation.
 
 ## Beyond Basic Usage
 

@@ -1,7 +1,7 @@
 ---
 name: "cursor-indexing-issues"
 description: |
-  Troubleshoot Cursor codebase indexing problems. Triggers on "cursor indexing",
+  Manage troubleshoot Cursor codebase indexing problems. Triggers on "cursor indexing",
   "cursor index", "cursor codebase", "@codebase not working", "cursor search broken". Use when working with cursor indexing issues functionality. Trigger with phrases like "cursor indexing issues", "cursor issues", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Codebase Indexing Troubleshooting
+
+## Overview
+
+This skill helps troubleshoot Cursor codebase indexing problems. It provides solutions for stuck indexing, empty search results, performance issues, and configuration optimization to ensure your codebase is properly indexed for AI features.
 
 ## Understanding Indexing
 

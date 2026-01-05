@@ -1,7 +1,7 @@
 ---
 name: scanning-database-security
 description: |
-  Use when you need to work with security and compliance.
+  Process use when you need to work with security and compliance.
   This skill provides security scanning and vulnerability detection with comprehensive guidance and automation.
   Trigger with phrases like "scan for vulnerabilities", "implement security controls",
   or "audit security".

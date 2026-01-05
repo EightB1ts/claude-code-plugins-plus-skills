@@ -1,7 +1,7 @@
 ---
 name: vercel-sdk-patterns
 description: |
-  Apply production-ready Vercel SDK patterns for TypeScript and Python.
+  Execute apply production-ready Vercel SDK patterns for TypeScript and Python.
   Use when implementing Vercel integrations, refactoring SDK usage,
   or establishing team coding standards for Vercel.
   Trigger with phrases like "vercel SDK patterns", "vercel best practices",

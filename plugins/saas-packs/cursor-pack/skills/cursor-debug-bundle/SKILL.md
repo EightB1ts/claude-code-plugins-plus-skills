@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor AI Debug Bundle
 
+## Overview
+
+This skill helps debug AI suggestions and code generation issues in Cursor. It covers understanding why AI gives wrong suggestions, debugging completions, chat context issues, and diagnostic tools for troubleshooting AI behavior.
+
 ## Understanding AI Behavior
 
 ### Why AI Gives Wrong Suggestions

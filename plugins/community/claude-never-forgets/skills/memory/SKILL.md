@@ -1,7 +1,7 @@
 ---
 name: memory
 description: |
-  Extract and use project memories from previous sessions for context-aware assistance.
+  Execute extract and use project memories from previous sessions for context-aware assistance.
   Use when recalling past decisions, checking project conventions, or understanding user preferences.
   Trigger with phrases like "remember when", "like before", or "what was our decision about".
   

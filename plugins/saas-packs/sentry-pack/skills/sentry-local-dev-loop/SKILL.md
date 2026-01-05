@@ -1,7 +1,7 @@
 ---
 name: sentry-local-dev-loop
 description: |
-  Set up local development workflow with Sentry.
+  Execute set up local development workflow with Sentry.
   Use when configuring Sentry for development environments,
   setting up debug mode, or testing error capture locally.
   Trigger with phrases like "sentry local dev", "sentry development",

@@ -1,7 +1,7 @@
 ---
 name: sentry-incident-runbook
 description: |
-  Incident response procedures using Sentry.
+  Manage incident response procedures using Sentry.
   Use when investigating production issues, triaging errors,
   or creating incident response workflows.
   Trigger with phrases like "sentry incident response", "sentry triage",
@@ -246,6 +246,34 @@ Postmortem: [Link when available]
 | `Missing release association` | Commits not linked | Run `sentry-cli releases set-commits` |
 | `Unclear root cause` | Insufficient context | Add more breadcrumbs and context in SDK |
 | `Duplicate incidents` | Poor issue grouping | Customize fingerprinting rules |
+
+## Prerequisites
+
+- Sentry account with access to project issues
+- Alert rules configured for critical errors
+- Team notification channels set up (Slack, PagerDuty)
+- Understanding of error severity classification
+
+## Instructions
+
+1. Check Sentry dashboard for active incidents and error spikes
+2. Classify incident severity using P0-P3 framework based on error rate and user impact
+3. Complete initial triage checklist to assess scope and gather context
+4. Use Sentry API commands to retrieve issue details and recent events
+5. Identify error pattern (deployment-related, third-party failure, data corruption, resource exhaustion)
+6. Apply appropriate resolution steps based on identified pattern
+7. Communicate status using incident templates (initial alert, updates, resolution)
+8. Document findings and complete postmortem checklist after resolution
+
+## Examples
+
+**Example: Triage Production Error Spike**
+Request: "We're seeing a 500% increase in login errors"
+Result: Identified database connection timeout, classified as P1, escalated to on-call DBA, resolved within 15 minutes
+
+**Example: Investigate User-Reported Issue**
+Request: "Users report checkout failing intermittently"
+Result: Found third-party payment API rate limiting, implemented retry logic with backoff, added alerting for payment failures
 
 ## Resources
 - [Sentry Issue Details](https://docs.sentry.io/product/issues/issue-details/)

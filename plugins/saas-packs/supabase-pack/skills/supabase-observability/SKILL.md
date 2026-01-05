@@ -1,7 +1,7 @@
 ---
 name: supabase-observability
 description: |
-  Set up comprehensive observability for Supabase integrations with metrics, traces, and alerts.
+  Execute set up comprehensive observability for Supabase integrations with metrics, traces, and alerts.
   Use when implementing monitoring for Supabase operations, setting up dashboards,
   or configuring alerting for Supabase integration health.
   Trigger with phrases like "supabase monitoring", "supabase metrics",

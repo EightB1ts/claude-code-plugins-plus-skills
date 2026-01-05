@@ -1,7 +1,7 @@
 ---
 name: "model-export-helper"
 description: |
-  Model Export Helper - Auto-activating skill for ML Deployment.
+  Assist with model export helper operations. Auto-activating skill for ML Deployment.
   Triggers on: model export helper, model export helper
   Part of the ML Deployment skill category. Use when working with model export helper functionality. Trigger with phrases like "model export helper", "model helper", "model".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Model Export Helper
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for model export helper tasks within the ML Deployment domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about model export helper patterns or best practices
 - Need help with machine learning deployment skills covering model serving, mlops pipelines, monitoring, and production optimization.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for model export helper
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for model export helper
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with model export helper"
-- "Set up model export helper"
-- "How do I implement model export helper?"
+**Example: Basic Usage**
+Request: "Help me with model export helper"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of ml deployment concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

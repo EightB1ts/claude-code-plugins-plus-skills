@@ -1,7 +1,7 @@
 ---
 name: supabase-security-basics
 description: |
-  Apply Supabase security best practices for secrets and access control.
+  Execute apply Supabase security best practices for secrets and access control.
   Use when securing API keys, implementing least privilege access,
   or auditing Supabase security configuration.
   Trigger with phrases like "supabase security", "supabase secrets",

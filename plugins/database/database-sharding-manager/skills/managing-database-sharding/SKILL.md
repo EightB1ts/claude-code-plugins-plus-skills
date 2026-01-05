@@ -1,7 +1,7 @@
 ---
 name: managing-database-sharding
 description: |
-  Use when you need to work with database sharding.
+  Process use when you need to work with database sharding.
   This skill provides horizontal sharding strategies with comprehensive guidance and automation.
   Trigger with phrases like "implement sharding", "shard database",
   or "distribute data".

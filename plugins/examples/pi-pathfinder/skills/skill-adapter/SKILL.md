@@ -1,7 +1,7 @@
 ---
 name: skill-adapter
 description: |
-  Analyzes existing plugins to extract their capabilities, then adapts and applies those skills to the current task. Acts as a universal skill chameleon that learns from other plugins. Activates when you request "skill adapter" functionality. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
+  Execute analyzes existing plugins to extract their capabilities, then adapts and applies those skills to the current task. Acts as a universal skill chameleon that learns from other plugins. Activates when you request "skill adapter" functionality. Use when appropriate context detected. Trigger with relevant phrases based on skill purpose.
 allowed-tools: Read, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

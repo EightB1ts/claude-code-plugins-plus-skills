@@ -1,7 +1,7 @@
 ---
 name: "cursor-compliance-audit"
 description: |
-  Compliance and security auditing for Cursor usage. Triggers on "cursor compliance",
+  Execute compliance and security auditing for Cursor usage. Triggers on "cursor compliance",
   "cursor audit", "cursor security review", "cursor soc2", "cursor gdpr". Use when analyzing or auditing cursor compliance audit. Trigger with phrases like "cursor compliance audit", "cursor audit", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Compliance & Security Audit
+
+## Overview
+
+This skill helps execute compliance and security auditing for Cursor usage. It covers SOC 2, GDPR, and HIPAA considerations with audit checklists, evidence collection procedures, and remediation guidance to maintain regulatory compliance.
 
 ## Compliance Overview
 

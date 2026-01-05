@@ -1,7 +1,7 @@
 ---
 name: generating-docker-compose-files
 description: |
-  Use when you need to work with Docker Compose.
+  Execute use when you need to work with Docker Compose.
   This skill provides Docker Compose file generation with comprehensive guidance and automation.
   Trigger with phrases like "generate docker-compose", "create compose file",
   or "configure multi-container app".

@@ -1,7 +1,7 @@
 ---
 name: "csrf-protection-validator"
 description: |
-  Csrf Protection Validator - Auto-activating skill for Security Fundamentals.
+  Validate csrf protection validator operations. Auto-activating skill for Security Fundamentals.
   Triggers on: csrf protection validator, csrf protection validator
   Part of the Security Fundamentals skill category. Use when working with csrf protection validator functionality. Trigger with phrases like "csrf protection validator", "csrf validator", "csrf".
 allowed-tools: "Read, Write, Grep, Bash(npm:*)"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Csrf Protection Validator
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for csrf protection validator tasks within the Security Fundamentals domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about csrf protection validator patterns or best practices
 - Need help with essential security skills covering authentication, input validation, secure coding practices, and basic vulnerability detection.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for csrf protection validator
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for csrf protection validator
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with csrf protection validator"
-- "Set up csrf protection validator"
-- "How do I implement csrf protection validator?"
+**Example: Basic Usage**
+Request: "Help me with csrf protection validator"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of security fundamentals concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

@@ -1,7 +1,7 @@
 ---
 name: plugin-validator
 description: |
-  Automatically validates AI assistant code plugin structure, schemas, and compliance when user mentions validate plugin, check plugin, or plugin errors. runs comprehensive validation specific to AI assistant-code-plugins repository standards. Use when validating configurations or code. Trigger with phrases like 'validate', 'check', or 'verify'.
+  Validate automatically validates AI assistant code plugin structure, schemas, and compliance when user mentions validate plugin, check plugin, or plugin errors. runs comprehensive validation specific to AI assistant-code-plugins repository standards. Use when validating configurations or code. Trigger with phrases like 'validate', 'check', or 'verify'.
 allowed-tools: Read, Grep, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

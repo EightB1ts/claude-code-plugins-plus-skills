@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor SSO & Enterprise Authentication
 
+## Overview
+
+This skill guides you through configuring SSO and enterprise authentication in Cursor. It covers SAML 2.0 and OAuth 2.0/OIDC setup for popular identity providers like Okta, Azure AD, and Google Workspace with step-by-step configuration instructions.
+
 ## SSO Overview
 
 ### Availability

@@ -349,10 +349,24 @@ async function getComplianceMetrics(): Promise<ComplianceMetrics> {
 ```
 
 ## Prerequisites
+
 - Organization-wide standards documented
 - Team structure defined
 - Compliance requirements identified
 - Shared configuration package repository
+
+## Instructions
+
+1. Create shared Sentry configuration package with organization defaults
+2. Define enforced settings that cannot be overridden (sendDefaultPii, sample rates)
+3. Implement mandatory PII scrubbing in beforeSend hook
+4. Add environment enforcement to block test data in production
+5. Create standard alert policy templates with required rules
+6. Implement project naming validation following team-service-environment pattern
+7. Build configuration audit script to check compliance across projects
+8. Set up compliance dashboard with metrics reporting
+9. Document policy requirements and share with all teams
+10. Enforce shared config package usage in CI/CD pipelines
 
 ## Output
 - Shared Sentry configuration package

@@ -1,7 +1,7 @@
 ---
 name: implementing-database-audit-logging
 description: |
-  Use when you need to track database changes for compliance and security monitoring.
+  Process use when you need to track database changes for compliance and security monitoring.
   This skill implements audit logging using triggers, application-level logging, CDC, or native logs.
   Trigger with phrases like "implement database audit logging", "add audit trails",
   "track database changes", or "monitor database activity for compliance".

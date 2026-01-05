@@ -1,7 +1,7 @@
 ---
 name: optimizing-database-connection-pooling
 description: |
-  Use when you need to work with connection management.
+  Process use when you need to work with connection management.
   This skill provides connection pooling and management with comprehensive guidance and automation.
   Trigger with phrases like "manage connections", "configure pooling",
   or "optimize connection usage".

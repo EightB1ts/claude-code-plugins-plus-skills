@@ -1,7 +1,7 @@
 ---
 name: managing-container-registries
 description: |
-  Use when you need to work with containerization.
+  Execute use when you need to work with containerization.
   This skill provides container management and orchestration with comprehensive guidance and automation.
   Trigger with phrases like "containerize app", "manage containers",
   or "orchestrate deployment".

@@ -1,7 +1,7 @@
 ---
 name: managing-database-migrations
 description: |
-  Use when you need to work with database migrations.
+  Process use when you need to work with database migrations.
   This skill provides schema migration management with comprehensive guidance and automation.
   Trigger with phrases like "create migration", "run migrations",
   or "manage schema versions".

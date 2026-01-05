@@ -1,7 +1,7 @@
 ---
 name: "vault-secrets-integrator"
 description: |
-  Vault Secrets Integrator - Auto-activating skill for DevOps Advanced.
+  Configure vault secrets integrator operations. Auto-activating skill for DevOps Advanced.
   Triggers on: vault secrets integrator, vault secrets integrator
   Part of the DevOps Advanced skill category. Use when working with vault secrets integrator functionality. Trigger with phrases like "vault secrets integrator", "vault integrator", "vault".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Vault Secrets Integrator
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for vault secrets integrator tasks within the DevOps Advanced domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about vault secrets integrator patterns or best practices
 - Need help with advanced devops skills covering kubernetes, terraform, advanced ci/cd, monitoring, and infrastructure as code.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for vault secrets integrator
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for vault secrets integrator
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with vault secrets integrator"
-- "Set up vault secrets integrator"
-- "How do I implement vault secrets integrator?"
+**Example: Basic Usage**
+Request: "Help me with vault secrets integrator"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of devops advanced concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

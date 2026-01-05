@@ -1,7 +1,7 @@
 ---
 name: vercel-architecture-variants
 description: |
-  Choose and implement Vercel validated architecture blueprints for different scales.
+  Execute choose and implement Vercel validated architecture blueprints for different scales.
   Use when designing new Vercel integrations, choosing between monolith/service/microservice
   architectures, or planning migration paths for Vercel applications.
   Trigger with phrases like "vercel architecture", "vercel blueprint",

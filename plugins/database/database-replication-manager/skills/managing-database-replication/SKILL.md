@@ -1,7 +1,7 @@
 ---
 name: managing-database-replication
 description: |
-  Use when you need to work with database scalability.
+  Process use when you need to work with database scalability.
   This skill provides replication and sharding with comprehensive guidance and automation.
   Trigger with phrases like "set up replication", "implement sharding",
   or "scale database".

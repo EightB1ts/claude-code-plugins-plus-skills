@@ -214,10 +214,24 @@ Sentry.init({
 ```
 
 ## Prerequisites
+
 - Performance monitoring enabled
 - Transaction volume metrics available
 - Critical paths identified
 - Performance baseline established
+
+## Instructions
+
+1. Implement dynamic sampling with tracesSampler for endpoint-specific rates
+2. Configure environment-based sample rates (higher in dev, lower in prod)
+3. Remove unused integrations to reduce SDK overhead
+4. Limit breadcrumbs to reduce memory usage
+5. Use parameterized transaction names to avoid cardinality explosion
+6. Create spans only for meaningful slow operations
+7. Configure profile sampling sparingly for performance-critical endpoints
+8. Measure SDK initialization time and ongoing overhead
+9. Implement high-volume optimization with aggressive filtering
+10. Monitor SDK performance metrics and adjust configuration
 
 ## Output
 - Optimized sample rates configured

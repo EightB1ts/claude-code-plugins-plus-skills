@@ -1,7 +1,7 @@
 ---
 name: openrouter-install-auth
 description: |
-  Set up OpenRouter API authentication and configure API keys. Use when starting a new OpenRouter integration or troubleshooting auth issues. Trigger with phrases like 'openrouter setup', 'openrouter api key', 'openrouter authentication', 'configure openrouter'.
+  Execute set up OpenRouter API authentication and configure API keys. Use when starting a new OpenRouter integration or troubleshooting auth issues. Trigger with phrases like 'openrouter setup', 'openrouter api key', 'openrouter authentication', 'configure openrouter'.
 allowed-tools: Read, Write, Edit, Grep
 version: 1.0.0
 license: MIT

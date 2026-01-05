@@ -1,7 +1,7 @@
 ---
 name: "cursor-ai-chat"
 description: |
-  Master Cursor AI chat interface for code assistance. Triggers on "cursor chat",
+  Manage master Cursor AI chat interface for code assistance. Triggers on "cursor chat",
   "cursor ai chat", "ask cursor", "cursor conversation", "chat with cursor". Use when working with cursor ai chat functionality. Trigger with phrases like "cursor ai chat", "cursor chat", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor AI Chat Mastery
+
+## Overview
+
+This skill helps you master the Cursor AI chat interface for code assistance. It covers effective prompting patterns, context management with @-mentions, model selection, and techniques for getting the best responses from AI.
 
 ## Chat Interface Overview
 

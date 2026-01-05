@@ -1,7 +1,7 @@
 ---
 name: klingai-video-extension
 description: |
-  Extend video duration using Kling AI continuation features. Use when creating longer videos
+  Execute extend video duration using Kling AI continuation features. Use when creating longer videos
   from shorter clips or building seamless sequences. Trigger with phrases like 'klingai extend video',
   'kling ai video continuation', 'klingai longer video', 'extend klingai clip'.
 allowed-tools: Read, Write, Edit, Grep

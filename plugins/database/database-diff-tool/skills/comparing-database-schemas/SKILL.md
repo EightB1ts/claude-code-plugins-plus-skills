@@ -1,7 +1,7 @@
 ---
 name: comparing-database-schemas
 description: |
-  Use when you need to work with schema comparison.
+  Process use when you need to work with schema comparison.
   This skill provides database schema diff and sync with comprehensive guidance and automation.
   Trigger with phrases like "compare schemas", "diff databases",
   or "sync database schemas".

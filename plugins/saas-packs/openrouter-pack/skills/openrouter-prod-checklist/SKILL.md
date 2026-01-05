@@ -1,7 +1,7 @@
 ---
 name: openrouter-prod-checklist
 description: |
-  Pre-launch production readiness checklist for OpenRouter. Use when preparing to deploy to production. Trigger with phrases like 'openrouter production', 'openrouter go-live', 'openrouter launch checklist', 'deploy openrouter'.
+  Execute pre-launch production readiness checklist for OpenRouter. Use when preparing to deploy to production. Trigger with phrases like 'openrouter production', 'openrouter go-live', 'openrouter launch checklist', 'deploy openrouter'.
 allowed-tools: Read, Write, Edit, Grep
 version: 1.0.0
 license: MIT

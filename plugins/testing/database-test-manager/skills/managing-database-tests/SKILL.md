@@ -1,7 +1,7 @@
 ---
 name: managing-database-tests
 description: |
-  Database testing including fixtures, transactions, and rollback management.
+  Test database testing including fixtures, transactions, and rollback management.
   Use when performing specialized testing.
   Trigger with phrases like "test the database", "run database tests", or "validate data integrity".
   

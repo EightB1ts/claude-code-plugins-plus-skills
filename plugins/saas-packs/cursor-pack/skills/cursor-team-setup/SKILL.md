@@ -1,7 +1,7 @@
 ---
 name: "cursor-team-setup"
 description: |
-  Set up Cursor for teams and organizations. Triggers on "cursor team",
+  Configure set up Cursor for teams and organizations. Triggers on "cursor team",
   "cursor organization", "cursor business", "cursor enterprise setup". Use when working with cursor team setup functionality. Trigger with phrases like "cursor team setup", "cursor setup", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Team & Organization Setup
+
+## Overview
+
+This skill guides you through setting up Cursor for teams and organizations. It covers plan selection, member management, shared configurations, onboarding workflows, and team analytics to ensure consistent Cursor usage across your organization.
 
 ## Team Plans Overview
 

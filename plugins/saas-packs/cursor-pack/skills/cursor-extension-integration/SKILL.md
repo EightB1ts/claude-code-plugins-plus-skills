@@ -1,7 +1,7 @@
 ---
 name: "cursor-extension-integration"
 description: |
-  Integrate VS Code extensions with Cursor. Triggers on "cursor extensions",
+  Manage integrate VS Code extensions with Cursor. Triggers on "cursor extensions",
   "cursor vscode extensions", "cursor plugins", "cursor marketplace". Use when working with cursor extension integration functionality. Trigger with phrases like "cursor extension integration", "cursor integration", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Extension Integration
+
+## Overview
+
+This skill helps integrate VS Code extensions with Cursor IDE. It covers extension compatibility, conflict resolution, essential extensions for development, and performance optimization to enhance your Cursor environment.
 
 ## Extension Compatibility
 

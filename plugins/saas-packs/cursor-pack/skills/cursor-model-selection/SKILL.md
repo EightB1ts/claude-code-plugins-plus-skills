@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor Model Selection & Configuration
 
+## Overview
+
+This skill helps you configure and select AI models in Cursor. It covers available models, task-based model selection, cost optimization strategies, and advanced configuration options to get the best results from different AI providers.
+
 ## Available Models
 
 ### Built-in Models (Cursor Subscription)

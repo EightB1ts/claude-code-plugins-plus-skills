@@ -1,7 +1,7 @@
 ---
 name: vercel-security-basics
 description: |
-  Apply Vercel security best practices for secrets and access control.
+  Execute apply Vercel security best practices for secrets and access control.
   Use when securing API keys, implementing least privilege access,
   or auditing Vercel security configuration.
   Trigger with phrases like "vercel security", "vercel secrets",

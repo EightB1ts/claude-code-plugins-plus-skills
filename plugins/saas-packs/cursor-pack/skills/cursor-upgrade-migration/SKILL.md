@@ -1,7 +1,7 @@
 ---
 name: "cursor-upgrade-migration"
 description: |
-  Upgrade Cursor versions and migrate settings. Triggers on "upgrade cursor",
+  Execute upgrade Cursor versions and migrate settings. Triggers on "upgrade cursor",
   "update cursor", "cursor migration", "cursor new version", "cursor changelog". Use when working with cursor upgrade migration functionality. Trigger with phrases like "cursor upgrade migration", "cursor migration", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Upgrade & Migration Guide
+
+## Overview
+
+This skill provides comprehensive guidance for upgrading Cursor IDE versions and migrating settings between installations. It covers version checking, upgrade methods, settings backup, and troubleshooting common migration issues.
 
 ## Checking Current Version
 

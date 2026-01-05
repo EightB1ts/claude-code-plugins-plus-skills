@@ -1,7 +1,7 @@
 ---
 name: database-documentation-gen
 description: |
-  Use when you need to work with database documentation.
+  Process use when you need to work with database documentation.
   This skill provides automated documentation generation with comprehensive guidance and automation.
   Trigger with phrases like "generate docs", "document schema",
   or "create database documentation".

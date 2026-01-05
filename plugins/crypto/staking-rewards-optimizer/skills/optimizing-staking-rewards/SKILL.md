@@ -1,7 +1,7 @@
 ---
 name: optimizing-staking-rewards
 description: |
-  Compare staking rewards across validators and networks with ROI calculations.
+  Execute compare staking rewards across validators and networks with ROI calculations.
   Use when optimizing proof-of-stake rewards.
   Trigger with phrases like "optimize staking", "compare validators", or "calculate rewards".
   

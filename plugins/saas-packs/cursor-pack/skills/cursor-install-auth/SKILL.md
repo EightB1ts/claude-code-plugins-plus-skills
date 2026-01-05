@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor Installation & Authentication
 
+## Overview
+
+This skill guides you through installing Cursor IDE and configuring authentication. It covers installation on macOS, Linux, and Windows, plus sign-in options, license activation, and API key configuration for custom model access.
+
 ## Installation Methods
 
 ### macOS

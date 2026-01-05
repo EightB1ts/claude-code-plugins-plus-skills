@@ -1,7 +1,7 @@
 ---
 name: optimizing-prompts
 description: |
-  This skill optimizes prompts for large language models (llms) to reduce token usage, lower costs, and improve performance. it analyzes the prompt, identifies areas for simplification and redundancy removal, and rewrites the prompt to be more conci... Use when optimizing performance. Trigger with phrases like 'optimize', 'performance', or 'speed up'.
+  Execute this skill optimizes prompts for large language models (llms) to reduce token usage, lower costs, and improve performance. it analyzes the prompt, identifies areas for simplification and redundancy removal, and rewrites the prompt to be more conci... Use when optimizing performance. Trigger with phrases like 'optimize', 'performance', or 'speed up'.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(cmd:*)
 version: 1.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

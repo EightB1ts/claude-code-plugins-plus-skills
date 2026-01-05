@@ -1,7 +1,7 @@
 ---
 name: "cursor-prod-checklist"
 description: |
-  Production readiness checklist for Cursor IDE setup. Triggers on "cursor production",
+  Execute production readiness checklist for Cursor IDE setup. Triggers on "cursor production",
   "cursor ready", "cursor checklist", "optimize cursor setup". Use when working with cursor prod checklist functionality. Trigger with phrases like "cursor prod checklist", "cursor checklist", "cursor".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*)"
 version: 1.0.0
@@ -10,6 +10,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cursor Production Readiness Checklist
+
+## Overview
+
+This skill provides a comprehensive production readiness checklist for Cursor IDE setup. It covers authentication, configuration, security, performance optimization, and team standards to ensure your Cursor environment is properly configured for professional use.
 
 ## Initial Setup
 

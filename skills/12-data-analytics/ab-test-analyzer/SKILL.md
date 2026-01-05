@@ -1,7 +1,7 @@
 ---
 name: "ab-test-analyzer"
 description: |
-  Ab Test Analyzer - Auto-activating skill for Data Analytics.
+  Analyze ab test analyzer operations. Auto-activating skill for Data Analytics.
   Triggers on: ab test analyzer, ab test analyzer
   Part of the Data Analytics skill category. Use when writing or running tests. Trigger with phrases like "ab test analyzer", "ab analyzer", "analyze ab test r".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Ab Test Analyzer
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for ab test analyzer tasks within the Data Analytics domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about ab test analyzer patterns or best practices
 - Need help with data analytics skills covering sql queries, data visualization, statistical analysis, and business intelligence.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for ab test analyzer
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for ab test analyzer
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with ab test analyzer"
-- "Set up ab test analyzer"
-- "How do I implement ab test analyzer?"
+**Example: Basic Usage**
+Request: "Help me with ab test analyzer"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of data analytics concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

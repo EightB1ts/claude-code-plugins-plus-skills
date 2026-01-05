@@ -11,6 +11,10 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Cursor Performance Tuning
 
+## Overview
+
+This skill helps optimize Cursor IDE performance. It covers performance diagnostics, editor optimization settings, extension management, AI feature tuning, and indexing configuration to ensure a fast and responsive development experience.
+
 ## Performance Diagnostics
 
 ### Checking Performance

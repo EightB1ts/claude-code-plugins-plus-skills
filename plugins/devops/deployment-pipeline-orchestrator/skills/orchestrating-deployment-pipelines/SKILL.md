@@ -1,7 +1,7 @@
 ---
 name: orchestrating-deployment-pipelines
 description: |
-  Use when you need to work with deployment and CI/CD.
+  Deploy use when you need to work with deployment and CI/CD.
   This skill provides deployment automation and orchestration with comprehensive guidance and automation.
   Trigger with phrases like "deploy application", "create pipeline",
   or "automate deployment".

@@ -1,7 +1,7 @@
 ---
 name: "mocha-test-setup"
 description: |
-  Mocha Test Setup - Auto-activating skill for Test Automation.
+  Configure mocha test setup operations. Auto-activating skill for Test Automation.
   Triggers on: mocha test setup, mocha test setup
   Part of the Test Automation skill category. Use when writing or running tests. Trigger with phrases like "mocha test setup", "mocha setup", "mocha".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Mocha Test Setup
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for mocha test setup tasks within the Test Automation domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about mocha test setup patterns or best practices
 - Need help with test automation skills covering unit testing, integration testing, mocking, and test framework configuration.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for mocha test setup
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for mocha test setup
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with mocha test setup"
-- "Set up mocha test setup"
-- "How do I implement mocha test setup?"
+**Example: Basic Usage**
+Request: "Help me with mocha test setup"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of test automation concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

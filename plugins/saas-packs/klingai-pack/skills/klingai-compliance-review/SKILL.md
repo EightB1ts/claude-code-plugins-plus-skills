@@ -1,7 +1,7 @@
 ---
 name: klingai-compliance-review
 description: |
-  Conduct compliance reviews for Kling AI integrations. Use when preparing for audits,
+  Execute conduct compliance reviews for Kling AI integrations. Use when preparing for audits,
   ensuring regulatory compliance, or reviewing security posture. Trigger with phrases like
   'klingai compliance', 'kling ai audit prep', 'klingai security review', 'video generation compliance'.
 allowed-tools: Read, Write, Edit, Grep

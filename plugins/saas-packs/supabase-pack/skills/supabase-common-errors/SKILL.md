@@ -1,7 +1,7 @@
 ---
 name: supabase-common-errors
 description: |
-  Diagnose and fix Supabase common errors and exceptions.
+  Execute diagnose and fix Supabase common errors and exceptions.
   Use when encountering Supabase errors, debugging failed requests,
   or troubleshooting integration issues.
   Trigger with phrases like "supabase error", "fix supabase",

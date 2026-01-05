@@ -224,10 +224,24 @@ Total: ~$15/month
 ```
 
 ## Prerequisites
+
 - Current Sentry billing plan known
 - Event volume metrics available
 - High-volume error sources identified
 - Cost reduction target defined
+
+## Instructions
+
+1. Review current usage and cost breakdown by event type
+2. Implement error sampling to reduce volume (e.g., 50% sampleRate)
+3. Configure aggressive transaction sampling (1% or lower for high-volume)
+4. Add ignoreErrors and denyUrls patterns for common noise
+5. Enable server-side inbound filters in project settings
+6. Set project rate limits to cap maximum events
+7. Reduce event size with maxValueLength and maxBreadcrumbs limits
+8. Disable unused features (replays, profiling) if not needed
+9. Configure tiered environment settings (disable in dev, reduce in staging)
+10. Set up spend alerts and monitor cost projections monthly
 
 ## Output
 - Optimized sample rates

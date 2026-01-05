@@ -1,7 +1,7 @@
 ---
 name: "api-gateway-config"
 description: |
-  Api Gateway Config - Auto-activating skill for AWS Skills.
+  Configure api gateway config operations. Auto-activating skill for AWS Skills.
   Triggers on: api gateway config, api gateway config
   Part of the AWS Skills skill category. Use when working with APIs or building integrations. Trigger with phrases like "api gateway config", "api config", "api".
 allowed-tools: "Read, Write, Edit, Bash(aws:*)"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Api Gateway Config
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for api gateway config tasks within the AWS Skills domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about api gateway config patterns or best practices
 - Need help with amazon web services skills covering compute, storage, networking, serverless, and aws-specific best practices.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for api gateway config
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for api gateway config
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with api gateway config"
-- "Set up api gateway config"
-- "How do I implement api gateway config?"
+**Example: Basic Usage**
+Request: "Help me with api gateway config"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of aws skills concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 

@@ -1,7 +1,7 @@
 ---
 name: klingai-upgrade-migration
 description: |
-  Migrate and upgrade Kling AI SDK versions safely. Use when updating dependencies or migrating
+  Execute migrate and upgrade Kling AI SDK versions safely. Use when updating dependencies or migrating
   configurations. Trigger with phrases like 'klingai upgrade', 'kling ai migration',
   'update klingai', 'klingai breaking changes'.
 allowed-tools: Read, Write, Edit, Grep

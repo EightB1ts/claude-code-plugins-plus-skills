@@ -1,7 +1,7 @@
 ---
 name: "redis-cache-manager"
 description: |
-  Redis Cache Manager - Auto-activating skill for Backend Development.
+  Manage redis cache manager operations. Auto-activating skill for Backend Development.
   Triggers on: redis cache manager, redis cache manager
   Part of the Backend Development skill category. Use when working with redis cache manager functionality. Trigger with phrases like "redis cache manager", "redis manager", "redis".
 allowed-tools: "Read, Write, Edit, Bash(cmd:*), Grep"
@@ -12,7 +12,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 
 # Redis Cache Manager
 
-## Purpose
+## Overview
 
 This skill provides automated assistance for redis cache manager tasks within the Backend Development domain.
 
@@ -23,18 +23,48 @@ This skill activates automatically when you:
 - Ask about redis cache manager patterns or best practices
 - Need help with backend skills covering node.js, python, go, database design, caching, messaging, and microservices architecture.
 
-## Capabilities
+## Instructions
 
-- Provides step-by-step guidance for redis cache manager
-- Follows industry best practices and patterns
-- Generates production-ready code and configurations
-- Validates outputs against common standards
+1. Provides step-by-step guidance for redis cache manager
+2. Follows industry best practices and patterns
+3. Generates production-ready code and configurations
+4. Validates outputs against common standards
 
-## Example Triggers
+## Examples
 
-- "Help me with redis cache manager"
-- "Set up redis cache manager"
-- "How do I implement redis cache manager?"
+**Example: Basic Usage**
+Request: "Help me with redis cache manager"
+Result: Provides step-by-step guidance and generates appropriate configurations
+
+
+## Prerequisites
+
+- Relevant development environment configured
+- Access to necessary tools and services
+- Basic understanding of backend development concepts
+
+
+## Output
+
+- Generated configurations and code
+- Best practice recommendations
+- Validation results
+
+
+## Error Handling
+
+| Error | Cause | Solution |
+|-------|-------|----------|
+| Configuration invalid | Missing required fields | Check documentation for required parameters |
+| Tool not found | Dependency not installed | Install required tools per prerequisites |
+| Permission denied | Insufficient access | Verify credentials and permissions |
+
+
+## Resources
+
+- Official documentation for related tools
+- Best practices guides
+- Community examples and tutorials
 
 ## Related Skills
 
