@@ -120,7 +120,7 @@ const { title, description = "Browse 244 searchable agent skills and 259 plugins
         /* Navigation */
         nav {
             position: fixed;
-            top: 0;
+            top: 36px; /* Account for top banner */
             width: 100%;
             padding: 1.5rem 4rem;
             display: flex;
@@ -128,6 +128,33 @@ const { title, description = "Browse 244 searchable agent skills and 259 plugins
             align-items: center;
             z-index: 100;
             background: linear-gradient(to bottom, var(--brand-light) 0%, transparent 100%);
+        }
+
+        /* Top Banner */
+        .top-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 101;
+            background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-orange-dark) 100%);
+            color: white;
+            text-align: center;
+            padding: 0.6rem 1rem;
+            font-family: 'Poppins', Arial, sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .top-banner a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s var(--transition-smooth);
+        }
+
+        .top-banner a:hover {
+            opacity: 0.9;
+            text-decoration: underline;
         }
 
         .logo {
@@ -140,6 +167,24 @@ const { title, description = "Browse 244 searchable agent skills and 259 plugins
             color: var(--brand-dark);
             text-decoration: none;
             font-family: 'Poppins', Arial, sans-serif;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .logo-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .logo-subtitle {
+            font-size: 0.65rem;
+            font-weight: 400;
+            color: var(--brand-mid-gray);
+            letter-spacing: 0.02em;
         }
 
         .logo-icon {
@@ -205,8 +250,8 @@ const { title, description = "Browse 244 searchable agent skills and 259 plugins
 
         /* Main Content */
         main {
-            padding-top: 80px;
-            min-height: calc(100vh - 80px);
+            padding-top: 116px; /* 36px banner + 80px nav */
+            min-height: calc(100vh - 116px);
         }
 
         /* Footer */
@@ -317,7 +362,16 @@ const { title, description = "Browse 244 searchable agent skills and 259 plugins
             }
 
             main {
-                padding-top: 70px;
+                padding-top: 106px; /* 36px banner + 70px nav on mobile */
+            }
+
+            .top-banner {
+                font-size: 0.75rem;
+                padding: 0.5rem 0.75rem;
+            }
+
+            .logo-subtitle {
+                display: none; /* Hide on mobile for cleaner look */
             }
 
             .footer-content {
@@ -332,11 +386,21 @@ const { title, description = "Browse 244 searchable agent skills and 259 plugins
     </style>
 </head>
 <body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <a href="https://calendar.app.google/Dj5qDi9oQjDzGkcq8" target="_blank" rel="noopener">
+            📅 Book a Free Consultation — Let's build your AI workflow together
+        </a>
+    </div>
+
     <!-- Navigation -->
     <nav>
         <a href="/" class="logo">
             <div class="logo-icon">⌘</div>
-            Claude Code Skills
+            <div class="logo-text">
+                <span class="logo-title">Claude Code Skills</span>
+                <span class="logo-subtitle">by Intent Solutions IO</span>
+            </div>
         </a>
         <button class="mobile-menu-toggle" aria-label="Toggle menu">
             <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
