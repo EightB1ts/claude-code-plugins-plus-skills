@@ -8,6 +8,8 @@ on:
   schedule:
     # Run weekly on Mondays at 6 AM UTC
     - cron: '0 6 * * 1'
+  # Enables the "Run workflow" button in the Actions tab
+  workflow_dispatch:
 
 jobs:
   analyze:
@@ -22,25 +24,40 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript', 'typescript', 'python' ]
-        # CodeQL supports: 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby', 'swift'
+        # Note: CodeQL treats 'javascript' and 'typescript' as the same 'javascript-typescript' engine
+        language: [ 'javascript-typescript', 'python' ]
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v4
+
+    # --- BASH SCRIPT SCANNING ---
+    # ShellCheck analyzes .sh files and exports a SARIF report for GitHub Security
+    - name: Run ShellCheck
+      if: matrix.language == 'python'
+      uses: ludeeus/action-shellcheck@master
+      with:
+        format: sarif
+        output_file: shellcheck.sarif
+
+    - name: Upload ShellCheck results
+      if: matrix.language == 'python' && always()
+      uses: github/codeql-action/upload-sarif@v3
+      with:
+        sarif_file: shellcheck.sarif
+        category: "shellcheck"
+    # --- END BASH SCANNING ---
 
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v4
+      uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
-        # Queries to run (security-extended includes more checks)
         queries: security-extended,security-and-quality
 
-    # Autobuild attempts to build any compiled languages
     - name: Autobuild
-      uses: github/codeql-action/autobuild@v4
+      uses: github/codeql-action/autobuild@v3
 
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v4
+      uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
