@@ -7,7 +7,8 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '0 6 * * 1'
-  workflow_dispatch:
+  # Enables manual run from the Actions tab
+  workflow_dispatch: 
 
 jobs:
   analyze:
@@ -22,6 +23,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        # CodeQL v4 uses 'javascript-typescript' for both languages
         language: [ 'javascript-typescript', 'python' ]
 
     steps:
@@ -29,29 +31,16 @@ jobs:
       uses: actions/checkout@v4
 
     # --- BASH SCRIPT SCANNING ---
-    - name: Run ShellCheck and Convert to SARIF
+    - name: Run ShellCheck
+      # Running only on the 'python' matrix leg to avoid redundant scans
       if: matrix.language == 'python'
-      # We use a shell script to run shellcheck and convert it to SARIF
-      run: |
-        # Install shellcheck and the sarif converter
-        sudo apt-get install -y shellcheck
-        pip install shellcheck-sarif
-
-        # Run shellcheck on all .sh files, outputting JSON, then convert to SARIF
-        # We use 'find' to ensure we catch scripts even if they aren't in the root
-        find . -name "*.sh" | xargs shellcheck -f json > shellcheck.json || true
-        
-        if [ -s shellcheck.json ]; then
-          shellcheck-sarif < shellcheck.json > shellcheck.sarif
-        fi
-
-    - name: Upload ShellCheck results
-      if: matrix.language == 'python' && hashFiles('shellcheck.sarif') != ''
-      uses: github/codeql-action/upload-sarif@v4
+      uses: ludeeus/action-shellcheck@master
       with:
-        sarif_file: shellcheck.sarif
-        category: "shellcheck"
-    # --- END BASH SCANNING ---
+        # Note: This action provides PR annotations automatically.
+        # It does not currently support 'format: sarif' for the Security Tab.
+        severity: warning
+        ignore_paths: node_modules
+    # -----------------------------
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v4
