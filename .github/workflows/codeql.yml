@@ -6,9 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    # Run weekly on Mondays at 6 AM UTC
     - cron: '0 6 * * 1'
-  # Enables the "Run workflow" button in the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -24,7 +22,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # Note: CodeQL treats 'javascript' and 'typescript' as the same 'javascript-typescript' engine
         language: [ 'javascript-typescript', 'python' ]
 
     steps:
@@ -32,32 +29,40 @@ jobs:
       uses: actions/checkout@v4
 
     # --- BASH SCRIPT SCANNING ---
-    # ShellCheck analyzes .sh files and exports a SARIF report for GitHub Security
-    - name: Run ShellCheck
+    - name: Run ShellCheck and Convert to SARIF
       if: matrix.language == 'python'
-      uses: ludeeus/action-shellcheck@master
-      with:
-        format: sarif
-        output_file: shellcheck.sarif
+      # We use a shell script to run shellcheck and convert it to SARIF
+      run: |
+        # Install shellcheck and the sarif converter
+        sudo apt-get install -y shellcheck
+        pip install shellcheck-sarif
+
+        # Run shellcheck on all .sh files, outputting JSON, then convert to SARIF
+        # We use 'find' to ensure we catch scripts even if they aren't in the root
+        find . -name "*.sh" | xargs shellcheck -f json > shellcheck.json || true
+        
+        if [ -s shellcheck.json ]; then
+          shellcheck-sarif < shellcheck.json > shellcheck.sarif
+        fi
 
     - name: Upload ShellCheck results
-      if: matrix.language == 'python' && always()
-      uses: github/codeql-action/upload-sarif@v3
+      if: matrix.language == 'python' && hashFiles('shellcheck.sarif') != ''
+      uses: github/codeql-action/upload-sarif@v4
       with:
         sarif_file: shellcheck.sarif
         category: "shellcheck"
     # --- END BASH SCANNING ---
 
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v3
+      uses: github/codeql-action/init@v4
       with:
         languages: ${{ matrix.language }}
         queries: security-extended,security-and-quality
 
     - name: Autobuild
-      uses: github/codeql-action/autobuild@v3
+      uses: github/codeql-action/autobuild@v4
 
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v3
+      uses: github/codeql-action/analyze@v4
       with:
         category: "/language:${{matrix.language}}"
