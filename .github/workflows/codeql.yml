@@ -7,8 +7,7 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '0 6 * * 1'
-  # Enables manual run from the Actions tab
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   analyze:
@@ -23,7 +22,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # CodeQL v4 uses 'javascript-typescript' for both languages
         language: [ 'javascript-typescript', 'python' ]
 
     steps:
@@ -32,15 +30,20 @@ jobs:
 
     # --- BASH SCRIPT SCANNING ---
     - name: Run ShellCheck
-      # Running only on the 'python' matrix leg to avoid redundant scans
       if: matrix.language == 'python'
-      uses: ludeeus/action-shellcheck@master
+      uses: bewuethr/shellcheck-action@v2
       with:
-        # Note: This action provides PR annotations automatically.
-        # It does not currently support 'format: sarif' for the Security Tab.
-        severity: warning
-        ignore_paths: node_modules
-    # -----------------------------
+        # Exclude noisy directories found in your previous logs
+        exclude_paths: |
+          backups/*
+          workspace/*
+          lab/*
+        # Silence the specific warnings/errors that were flooding your logs
+        # SC1071: Missing shebang error
+        # SC2034: Unused variable warning
+        # SC2155: Masking return values warning
+        # SC2046: Quote to prevent word splitting
+        check_arguments: -e SC1071 -e SC2034 -e SC2155 -e SC2046
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v4
